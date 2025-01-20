@@ -1,0 +1,14 @@
+#bodyFormation
+{
+    padding: 10px;
+}
+
+mat-card
+{
+    background-color: #1E1E1E;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}

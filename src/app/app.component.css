@@ -1,0 +1,61 @@
+app {
+    background-color: #2C2C2C ;
+    color: white;
+    font-family: 'Cascadia Code', monospace;
+}
+
+#header {
+    color: white;
+    width: 100%;
+    background-color: #1E1E1E;
+    padding: 10px;
+    text-align: center;
+}
+
+#divHeader
+{
+    margin: 10px;
+    /* border: solid 2px Magenta; */
+    text-align: center;
+}
+
+#btnTheme
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0;
+}
+
+
+#sectionFormation
+{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#mat-toolbar-row
+{
+    justify-content: space-between;
+    font-size: large;
+    background-color: #1E1E1E;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button
+{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    flex: 1;
+    display: flex;
+}
+
+h2{
+    margin-left: 2pt;
+    text-decoration: none!important;
+}
+
+

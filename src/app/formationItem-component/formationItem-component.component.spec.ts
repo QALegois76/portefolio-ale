@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FormationComponentComponent } from './formation-component.component';
+import { FormationComponentComponent } from './formationItem-component.component';
 
 describe('FormationComponentComponent', () => {
   let component: FormationComponentComponent;
