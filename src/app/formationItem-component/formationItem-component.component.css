@@ -8,7 +8,15 @@ mat-card
     background-color: #1E1E1E;
 }
 
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
+.example-header-image img {
+  width: 2cm;
+  height: fit-content;
+  height: auto;
+  margin: auto;
+  background-size: contain;
+}
+
+mat-card-subtitle
+{
+    color: grey;
 }

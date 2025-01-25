@@ -1,11 +1,3 @@
-<p>formations-component works!</p>
-
-
-    <section id="sectionFormation">
-        <h3>Formations</h3>
-        <app-formation-component></app-formation-component>
-        <app-formation-component></app-formation-component>
-        <app-formation-component></app-formation-component>
-        <app-formation-component></app-formation-component>
-    </section>
-    <br>
+<mat-card id="example-card" appearance="outlined">
+        <formationItem-component *ngFor="let item of dataFormation" [formation]="item"/>
+</mat-card>

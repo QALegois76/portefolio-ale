@@ -1,11 +1,87 @@
-.example-card {
+#example-card {
   max-width: 900px;
   margin: auto;
   margin-top: 20px;
-  background-color: grey;
+  background-color: rgb(59, 59, 59);
 }
 
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
+
+.zoom-container {
+  margin-top: -2cm;
+  border-radius: 2cm;
+  border: solid black 2px;
+  background-color: gray;
+  width: 4cm; /* Largeur du conteneur */
+  height: 4cm; /* Hauteur du conteneur */
+  overflow: hidden; /* Cache la partie débordante de l'image */
+  position: relative;
+}
+
+.zoom-container img {
+  width: 100%; /* Ajuste la largeur à celle du conteneur */
+  height: 100%; /* Ajuste la hauteur à celle du conteneur */
+  scale: 1.2;
+  margin-top: 10px;
+}
+
+#imgBanner
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#banner
+{
+  width: 100%;
+  height: 4cm;
+  background-color: aquamarine;
+  margin-top: 0;
+}
+
+#profilePictCard
+{
+  border-radius: 4cm;
+}
+#profilePict
+{
+  width: 4cm;
+  height: 4cm;
+  object-fit: cover;
+}
+
+#lineInfo
+{
+  width: 100%;
+  border: solid magenta 1px;
+
+}
+
+mat-card-subtitle, a
+{
+  color: lightgray;
+  text-decoration: none;
+}
+
+mat-card-title
+{
+  text-emphasis: bold;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+mat-list-item mat-icon[matListItemIcon]:hover, ng-icon:hover {
+  background-color: transparent !important; /* Supprime le fond de hover */
+  color: lightgray !important; /* Empêche les changements de couleur */
+}
+
+mat-list-item mat-icon[matListItemIcon], ng-icon {
+  background-color: transparent !important; /* Supprime le fond de hover */
+  color: lightgray !important; /* Empêche les changements de couleur */
+}
+
+mat-list-item div[matListItemTitle] {
+  color: lightgrey; /* Applique la couleur lightgrey */
+  font-size: 16px; /* Optionnel : ajuster la taille de la police */
 }

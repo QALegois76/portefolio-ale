@@ -1,27 +1,57 @@
-<mat-card class="example-card" appearance="outlined">
+<mat-card id="example-card" appearance="outlined">
+    <mat-card id="banner">
+        <img mat-card-image id="imgBanner" src="assets/banner.jpg" alt="">
+    </mat-card>
+
     <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title>Shiba Inu</mat-card-title>
-        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        <div class="zoom-container">
+            <img src="/assets/id.png" alt="id.png" />
+        </div>
     </mat-card-header>
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+
+    <mat-card-header>
+        <div class="row">
+            <mat-card-title>LEGOIS Antoine</mat-card-title>
+            <mat-card-subtitle>Ingénieur logiciel .NET | Apprenti developper web fullstack</mat-card-subtitle>
+        </div>
+    </mat-card-header>
+
     <mat-card-content>
-        <p>
-            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-            bred for hunting.
-        </p>
+
+
+        <hr />
+
+        <mat-list role="list">
+            <mat-list-item role="listitem">
+                <mat-icon matListItemIcon>home</mat-icon>
+                <div matListItemTitle>62 rue Lemarrois, Brionne, 27800</div>
+            </mat-list-item>
+
+            <mat-list-item role="listitem">
+                <mat-icon matListItemIcon>phone</mat-icon>
+                <div matListItemTitle>+33 7 82 84 30 20</div>
+            </mat-list-item>
+
+            <mat-list-item role="listitem">
+                <mat-icon matListItemIcon>email</mat-icon>
+                <div matListItemTitle>antoine.legois&#64;gmail.com</div>
+            </mat-list-item>
+
+            <mat-list-item role="listitem">
+                <ng-icon matListItemIcon name="bootstrapLinkedin" />
+                <div matListItemTitle><a rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/antoine-legois-372465142/" target="_blank">antoine-legois</a>
+                </div>
+            </mat-list-item>
+
+            <mat-list-item role="listitem">
+                <ng-icon matListItemIcon name="bootstrapCarFrontFill" />
+                <div matListItemTitle>Permis B + voiture</div>
+            </mat-list-item>
+
+
+        </mat-list>
+
     </mat-card-content>
-    <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
-    </mat-card-actions>
+
 </mat-card>
-
-<p>info-component works!</p>
-
-<p>LEGOIS Antoine</p>
-
-<p>Brionne</p>
-
-<p>Permis B + vehicule (8 ans)</p>

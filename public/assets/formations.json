@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Lycée blaise Pascal Rouen",
+        "start": "2014",
+        "end": "2017",
+        "diploma": "Bac S Science de l'ingénieur (BAC SSI)",
+        "option": "Informatique et Sciences du Numérique (ISN)",
+        "icon": "assets/lbp.png",
+        "description": "projet de fin d'année participation à la coupe de France de robotique 2017, classement 215ème nous étions 2 lycée contre des école d'ingénieurs. Projet de fin d'année en ISN : création d'une application en python pour crypter des messages sur une image"
+    },
+    {
+        "name": "IUT de Rouen site d'Elbeuf",
+        "start": "2017",
+        "end": "2019",
+        "diploma": "DUT Réseaux et Télécommunications",
+        "option": "",
+        "icon": "assets/iut.png",
+        "description": "réaliser en alternance avec Orange"
+    },
+    {
+        "name": "Lycée blaise Pascal Rouen",
+        "start": "2019",
+        "end": "2020",
+        "diploma": "Classe préparatoire aux grandes écoles (CPGE) ATS",
+        "option": null,
+        "icon": "assets/lbp.png"
+    },
+    {
+        "name": "CESI Rouen",
+        "start": "2020",
+        "end": "2021",
+        "diploma": "Ingénieur généraliste",
+        "option": null,
+        "icon": "assets/cesi.png"
+    },
+    {
+        "name": "CESI Rouen",
+        "start": "2021",
+        "end": "2024",
+        "diploma": "Ingénieur informatique",
+        "option": "Developpement web, logiciel et réalité virtuelle",
+        "icon": "assets/cesi.png"
+    }
+]
