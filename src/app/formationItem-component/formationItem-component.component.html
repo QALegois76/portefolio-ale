@@ -1,11 +1,13 @@
 <div id="bodyFormation">
     <mat-card appearance="outlined">
 
-            <div class="row">
-                <div class="col">
-                    <div class="example-header-image"><img [src]="formation.icon" alt="icon"></div>
+            <div class="row" style="margin-left: auto; margin-right: auto; width: 100%;">
+                <div class="col  d-flex align-items-center justify-content-center">
+                    <div class="header-image">
+                        <img id="imgFormation" [src]="formation.icon" alt="icon">
+                    </div>
                 </div>
-                <div class="col-4">
+                <div class="col-10">
                     <mat-card-title>{{formation.diploma}}</mat-card-title>
                     @if(formation.option){ <mat-card-subtitle>{{formation.option}}</mat-card-subtitle>}          
                     <mat-card-subtitle>{{formation.name}}</mat-card-subtitle>
@@ -18,12 +20,4 @@
             {{formation.description}}
         </mat-card-content>
     </mat-card>
-</div>
-
-
-<div class="row" style="border: solid red 1px;">
-    <div class="col"> 1 </div>
-    <div class="col"> 2 </div>
-    <div class="col-4"> 3 </div>
-    <div class="col"> 4 </div>
 </div>
