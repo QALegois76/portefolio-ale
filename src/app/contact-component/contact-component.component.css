@@ -1,0 +1,63 @@
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.list-unstyled a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.list-unstyled a:hover {
+  text-decoration: underline;
+}
+
+.example-card {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5cm;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+mat-list-item mat-icon[matListItemIcon]:hover, ng-icon:hover {
+  background-color: transparent !important; /* Supprime le fond de hover */
+  color: lightgray !important; /* Empêche les changements de couleur */
+}
+
+mat-list-item mat-icon[matListItemIcon], ng-icon {
+  background-color: transparent !important; /* Supprime le fond de hover */
+  color: lightgray !important; /* Empêche les changements de couleur */
+}
+
+mat-list-item div[matListItemTitle] {
+  color: lightgrey; /* Applique la couleur lightgrey */
+  font-size: 16px; /* Optionnel : ajuster la taille de la police */
+}
+
+a
+{
+  color: lightgray;
+  text-decoration: none;
+}
+
+textarea, input
+{
+  background-color: #1E1E1E;
+}
+
+textarea:focus, input:focus
+{
+  background-color: #1E1E1E;
+}

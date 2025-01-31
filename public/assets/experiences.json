@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Développeur .NET",
+        "company": "Altimet Ayonis",
+        "start": "2020/10/01",
+        "end": "2024/10/01",
+        "icon": "assets/AltimetAyonis.png",
+        "description": " Développement et support des logiciels ICM et GALAXY, des logiciels industriels de mesure dimensionnelle multi-capteurs en 2D/3D. Responsable de l’uniformisation graphique UI/UX des logiciels sous Windows Forms. Gestion des interactions avec la base de données SQL Server via Entity Framework. Veille technologique sur WPF et étude d'ASP.NET pour la création d'un visualiseur de données."
+    },
+    {
+        "name": "Chef de projet logiciel",
+        "company": "QISAB",
+        "start": "2023/07/17",
+        "end": "2023/10/07",
+        "icon": "assets/qisab.png",
+        "description": "Suite au rachat de la société QISAB, Altimet a acquis les brevets du capteur CWS 640. Ce capteur permet de mesurer la rugosité d'une surface au nanomètre près en seulement 1 ms. Il est considéré comme l'avenir d'Altimet. Cependant, le capteur CWS est actuellement utilisable avec trois logiciels prototypes développés sous LabView et MATLAB. Ces logiciels intègrent des fonctions avancées, telles que le positionnement avec un bras robotique. Altimet ne souhaite pas proposer ces fonctionnalités avancées, préférant les laisser à la charge des clients. Mon rôle consiste à formaliser et décrire le fonctionnement logiciel du CWS, tout en développant un SDK permettant son exploitation."
+    },
+    {
+        "name": "Technicien Réseaux Struturant",
+        "company": "Orange",
+        "start": "2017/09/01",
+        "end": "2019/08/01",
+        "icon": "assets/orange.png",
+        "description": "Orange est engagé dans la formation des jeunes. J’ai donc été embauché à Évreux en tant que technicien en réseaux structurants sur tout le département de l’Eure. Mon embauche a coïncidé avec de grands changements : en effet, la fin des offres RTC a été annoncée, et il est nécessaire de démonter les équipements RTC pour libérer de l’espace en vue d’installer ceux dédiés à la fibre. Orange commence également à préparer ses équipements mobiles pour l’arrivée de la 5G. Enfin, avec une forte demande d’installations chez les clients, de nombreuses petites missions ne sont pas réalisées, car elles sont moins prioritaires."
+    }
+]

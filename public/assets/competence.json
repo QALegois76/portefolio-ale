@@ -1,0 +1,127 @@
+[
+    {
+        "name": "C#",
+        "icon": "assets/cs.png",
+        "progress": 0.95
+    },
+    {
+        "name": "C++",
+        "icon": "assets/cpp.png",
+        "progress": 0.6
+    },
+    {
+        "name": "Windows Forms",
+        "icon": null,
+        "progress": 0.95
+    },
+    {
+        "name": "WPF",
+        "icon": null,
+        "progress": 0.7
+    },
+    {
+        "name": "ASP .NET",
+        "icon": "assets/asp.png",
+        "progress": 0.6
+    },
+    {
+        "name": "MAUI",
+        "icon": "assets/maui.png",
+        "progress": 0.3
+    },
+    {
+        "name": "HTML",
+        "icon": "assets/html.png",
+        "progress": 0.65
+    },
+    {
+        "name": "CSS",
+        "icon": "assets/css.png",
+        "progress": 0.65
+    },
+    {
+        "name": "JavaScript",
+        "icon": "assets/js.png",
+        "progress": 0.7
+    },
+    {
+        "name": "TypeScript",
+        "icon": "assets/ts.png",
+        "progress": 0.7
+    },
+    {
+        "name": "SQL",
+        "icon": "assets/sql.png",
+        "progress": 0.8
+    },
+    {
+        "name": "VB .NET",
+        "icon": "assets/vb.png",
+        "progress": 0.85
+    },
+    {
+        "name": "Angular",
+        "icon": "assets/angular.png",
+        "progress": 0.7
+    },
+    {
+        "name": "Vue.js",
+        "icon": "assets/vue.png",
+        "progress": 0.7
+    },
+    {
+        "name": "Node.js",
+        "icon": "assets/node.png",
+        "progress": 0.65
+    },
+    {
+        "name": "Blazor",
+        "icon": "assets/blazor.png",
+        "progress": 0.4
+    },
+    {
+        "name": "Python",
+        "icon": "assets/python.png",
+        "progress": 0.7
+    },
+    {
+        "name": "Unity",
+        "icon": "assets/unity.png",
+        "progress": 0.9
+    },
+    {
+        "name": "Blender",
+        "icon": "assets/blender.png",
+        "progress": 0.85
+    },
+    {
+        "name": "Java",
+        "icon": "assets/java.png",
+        "progress": 0.5
+    },
+    {
+        "name": "Visual Studio 2022",
+        "icon": "assets/vs22.png",
+        "progress": 0.8
+    },
+    {
+        "name": "Visual Studio Code",
+        "icon": "assets/vscode.png",
+        "progress": 0.8
+    },
+    {
+        "name": "Entity Framework Core",
+        "icon": null,
+        "progress": 0.65
+    },
+    {
+        "name": "Microsoft SQL Server",
+        "icon": "assets/sqlServer.png",
+        "progress": 0.6
+    },
+    {
+        "name": "Azure DevOps",
+        "icon": "assets/azure.png",
+        "progress": 0.6
+    }
+]

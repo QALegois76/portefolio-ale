@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Coupe de France de robotique 2017",
+        "description": "lorem ipsum",
+        "icon": "assets/img.png",
+        "start": "",
+        "duration": "",
+        "image": [
+            {
+                "path": "assets/cdfr.png",
+                "title": null,
+                "description": null
+            }
+        ]
+    },
+    {
+        "name": "logiciel de cyptage en pyhton avec image",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "apprentissage du C# avec OpenClassroom",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "apprentissage de blender avec Udemy",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "apprentissage de Unity avec Udemy",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "réalisation d'un petit jeux vidéo",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "présentation de mon jeux lors d'une LAN party à l'IUT d'Elbeuf",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "particiapation à une table ronde sur la créatrion de jeux vidéo à l'IUT d'Elbeuf",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "particiaption à au Startup week-end de Rouen 2019",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "participation au challenge NAE",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "particiaption d'un hackathon Tech for good par Latitudes 76",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "portefolio en ligne",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "projet de demonstration de compétence",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "Easy Save",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "Factory Frenzy",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "Linkeats",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "Galaxy",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "ICM",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "CWS SDK",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    },
+    {
+        "name": "Certification C# freeCodeCamp",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "image": []
+    }
+]

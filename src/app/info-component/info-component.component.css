@@ -36,7 +36,6 @@
 {
   width: 100%;
   height: 4cm;
-  background-color: aquamarine;
   margin-top: 0;
 }
 
@@ -51,12 +50,6 @@
   object-fit: cover;
 }
 
-#lineInfo
-{
-  width: 100%;
-  border: solid magenta 1px;
-
-}
 
 mat-card-subtitle, a
 {

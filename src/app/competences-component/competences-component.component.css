@@ -1,0 +1,11 @@
+#example-card {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5cm;
+}
+
+app-competence-item
+{
+    margin: 5px;
+}

@@ -1,0 +1,16 @@
+    <mat-card appearance="outlined">
+        <div id="body">
+
+            
+            <div *ngIf="competence.icon"  id="header-image">
+                <img id="imgFormation" [src]="competence.icon" alt="icon">
+            </div>
+            
+            <h4 id="title" >{{competence.name}}</h4>
+    
+            <div id="infoPart">   
+                <mat-progress-bar mode="determinate" [value]="competence.progress*100">{{(competence.progress*100).toFixed(2)}}%</mat-progress-bar>
+            </div>
+        </div>
+        
+    </mat-card>

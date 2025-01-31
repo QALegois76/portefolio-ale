@@ -2,12 +2,11 @@ import { Component, inject } from '@angular/core';
 import { FormationComponentComponent } from "../formationItem-component/formationItem-component.component";
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { MatCard } from '@angular/material/card';
 
 
 @Component({
   selector: 'app-formations-component',
-  imports: [FormationComponentComponent, CommonModule, MatCard],
+  imports: [FormationComponentComponent, CommonModule],
   templateUrl: './formations-component.component.html',
   styleUrl: './formations-component.component.css'
 })

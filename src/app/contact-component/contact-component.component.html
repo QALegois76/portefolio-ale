@@ -1,1 +1,70 @@
-<p>contact-component works!</p>
+<!-- Contact Information -->
+<mat-card class="example-card">
+    <div class="col-md-6 mt-5 mt-md-0">
+        <h2>Contact & Réseaux</h2>
+
+
+                <mat-list role="list">
+                
+                    <mat-list-item role="listitem">
+                        <mat-icon matListItemIcon>phone</mat-icon>
+                        <a href="tel:+33782843020">+33 7 82 84 30 20</a>
+                    </mat-list-item>
+                
+                    <mat-list-item role="listitem">
+                        <mat-icon matListItemIcon>email</mat-icon>
+                        <a href="mailto:antoine.legois@gmail.com">antoine.legois&#64;gmail.com</a>
+                    </mat-list-item>
+                
+                    <mat-list-item role="listitem">
+                        <ng-icon matListItemIcon name="bootstrapLinkedin" />
+                        <div matListItemTitle><a rel="noopener noreferrer" href="https://www.linkedin.com/in/antoine-legois-372465142/"
+                                target="_blank">antoine-legois</a>
+                        </div>
+                    </mat-list-item>
+                    
+                    <mat-list-item role="listitem">
+                        <ng-icon matListItemIcon name="bootstrapGithub" />
+                        <div matListItemTitle><a rel="noopener noreferrer" href="https://github.com/QALegois76"
+                                target="_blank">QALegois76</a>
+                        </div>
+                    </mat-list-item>
+            
+                
+                
+                </mat-list>
+    </div>
+</mat-card>
+
+
+<!-- contact.component.html -->
+<mat-card class="example-card">
+    <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+            <h2>Get in Touch</h2>
+            <p>Have a question or want to work together? Send me a message!</p>
+            <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" [(ngModel)]="formData.name" required />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" [(ngModel)]="formData.email" required />
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" [(ngModel)]="formData.message"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" [disabled]="!contactForm.form.valid">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</mat-card>
+
+
+

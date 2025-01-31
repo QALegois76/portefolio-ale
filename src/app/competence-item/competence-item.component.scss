@@ -1,0 +1,75 @@
+@use '@angular/material' as mat;
+
+mat-card
+{
+    background-color: rgb(59, 59, 59);
+    height: 1.5cm;
+}
+
+#body
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+#imgFormation
+{
+  width: 100%;
+  height: auto;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#header-image
+{
+    width: 1cm;
+    height: 100%;
+    margin-top: auto ;
+    margin-bottom: auto;
+}
+
+
+
+mat-card-subtitle
+{
+    color: white;
+}
+
+#infoPart
+{
+    /* width: 100%; */
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10cm;
+    height: 80%;
+
+}
+
+#title
+{
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+
+mat-progress-bar
+{
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    @include mat.progress-bar-overrides((
+        active-indicator-color: #7854EA,
+        track-color: grey,
+        track-height : 30px,
+        active-indicator-height: 20px,
+        track-shape: 5px
+        ));
+}
+
+

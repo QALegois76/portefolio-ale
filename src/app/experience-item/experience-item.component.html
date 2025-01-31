@@ -1,0 +1,22 @@
+<div id="bodyFormation">
+    <mat-card appearance="outlined">
+
+        <div class="row" style="margin-left: auto; margin-right: auto; width: 100%;">
+            <div class="col  d-flex align-items-center justify-content-center">
+                <div class="header-image">
+                    <img id="imgFormation" [src]="experience.icon" alt="icon">
+                </div>
+            </div>
+            <div class="col-10">
+                <mat-card-title>{{experience.name}}</mat-card-title>
+                <mat-card-subtitle>{{experience.company}}</mat-card-subtitle>
+                <mat-card-subtitle>{{getDate( experience.start)}}-{{getDate( experience.end)}}</mat-card-subtitle>
+            </div>
+        </div>
+
+        <br />
+        <mat-card-content>
+            {{experience.description}}
+        </mat-card-content>
+    </mat-card>
+</div>
