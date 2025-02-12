@@ -1,6 +1,5 @@
 <div id="bodyFormation">
-    <mat-card appearance="outlined">
-
+    <mat-card appearance="outlined" id="matCardBody">
         <div class="row" style="margin-left: auto; margin-right: auto; width: 100%;">
             <div class="col  d-flex align-items-center justify-content-center">
                 <div class="header-image">
@@ -9,19 +8,66 @@
             </div>
             <div class="col-10">
                 <mat-card-title>{{project.name}}</mat-card-title>
+                {{project.description}}
             </div>
         </div>
-
-        <br />
+        <br>
         <mat-card-content>
-            {{project.description}}
-            <hr/>
-            <div id="image" *ngFor="let image of project.images">
-                <h4>{{image.title}}</h4>
-                <img [src]="image" alt="image">
-                <p>{{image.description}}</p>
+            <p-carousel [value]="project.images" [numVisible]="2" [numScroll]="2" [circular]="true"
+                autoplayInterval="30000" [responsiveOptions]="responsiveOptions">
+                <ng-template let-item #item>
 
-            </div>
+                    <ng-container *ngIf="item.type === 'Image'; else checkVideo">
+                        <mat-card id="cardImgContent">
+                            <div id="divImgContent">
+                                <img id="imgContent" [src]="item.icon" alt="icon">
+                            </div>
+                            <mat-card-content>
+                                <p>
+                                    {{item.description}}
+                                </p>
+                            </mat-card-content>
+                        </mat-card>
+                    </ng-container>
+
+                    <ng-template #checkVideo>
+                        <ng-container *ngIf="item.type === 'Video'; else checkText">
+
+
+                            <mat-card id="cardImgContent">
+                                <div id="divImgContent">
+                                    <video muted loop id="imgContent">
+                                        <source [src]="item.icon" type="video/mp4">
+                                        Votre navigateur ne supporte pas les vidéos.
+                                    </video>
+                                </div>
+                                <mat-card-content>
+                                    <p>
+                                        {{item.description}}
+                                    </p>
+                                </mat-card-content>
+                            </mat-card>
+
+
+                        </ng-container>
+                    </ng-template>
+
+                    <ng-template #checkText>
+                        <p class="media-content">{{ item.icon }}</p>
+                    </ng-template>
+
+
+
+
+
+                </ng-template>
+
+
+
+
+
+            </p-carousel>
+
         </mat-card-content>
     </mat-card>
 </div>

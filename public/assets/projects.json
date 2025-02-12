@@ -1,130 +1,715 @@
 [
     {
         "name": "Coupe de France de robotique 2017",
-        "description": "lorem ipsum",
-        "icon": "assets/img.png",
-        "start": "",
-        "duration": "",
-        "image": [
+        "description": "Mon projet de fin d'année de lycée est la participation à la coupe de france de robotique. Mon groupe avons decider d'apprendre de nous même l'Arduino au lieu de réaliser les programmmes sous Flowcode, un logiciel no code permmettant de créer des programme sous forme de bloc visuel similiare à Scratch. Nous nous sommes acheté des composant électrique comme une carte Arduino UNO ainsi que des servo moteur et nous nous sommes entrainé à les piloter. Puis une fois notre prototype relativement bien avancer nous avons réaliser notre robot final avec les machines de découpe et d'impréssion 3D du lycée.",
+        "icon": "assets/cdfr/cdfr.png",
+        "date": "2017",
+        "duration": null,
+        "images": [
             {
-                "path": "assets/cdfr.png",
-                "title": null,
-                "description": null
+                "icon": "assets/cdfr/cdfr_1.jpg",
+                "type": "Image",
+                "description": "réalisation des premiers branchements"
+            },
+            {
+                "icon": "assets/cdfr/cdfr_2.jpg",
+                "type": "Image",
+                "description": "installation des sovo moteur sur la fourche"
+            },
+            {
+                "icon": "assets/cdfr/cdfr_3.jpg",
+                "type": "Image",
+                "description": "installation des sovo moteur sur la rampe"
+            },
+            {
+                "icon": "assets/cdfr/cdfr_4.jpg",
+                "type": "Image",
+                "description": "installation des sovo moteur sur le reservoir"
+            },
+            {
+                "icon": "assets/cdfr/cdfr_5.jpg",
+                "type": "Image",
+                "description": "branchement des différentes pièces du robot"
+            },
+            {
+                "icon": "assets/cdfr/cdfr_6.jpg",
+                "type": "Image",
+                "description": "version final du robot"
+            },
+            {
+                "icon": "assets/cdfr/cdfr_7.jpg",
+                "type": "Image",
+                "description": "branchement des différents equipement de la version final du robot"
+            },
+            {
+                "icon": "assets/cdfr/cdfr_8.jpg",
+                "type": "Image",
+                "description": "premiers test du robot final"
             }
         ]
     },
     {
-        "name": "logiciel de cyptage en pyhton avec image",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
+        "name": "Apprentissage de blender avec Udemy",
+        "icon": "assets/blender.png",
+        "description": "A la suite du lycée, j'ai souhaité continué à en apprendre plus sur les programmation et en particulier sur la création de jeux vidéo. Cependant je me suis vite rendu compte que je n'avait pas d'assets. J'ai donc mis pause l'étude de Unity et me lancer dans l'apprentissage de Blender. J'ai donc suivi en parallèle de mes études un cours Udemy sur la modelisation 3D sous Blender.",
+        "date": "2017",
+        "duration": "P5Y",
+        "images": [
+            {
+                "icon": "assets/blender/blender_1.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_2.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_3.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_4.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_5.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_6.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_7.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_8.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_9.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_10.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_11.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_12.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_13.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_14.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_15.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_16.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_17.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_18.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_19.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_20.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_21.png",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/blender/blender_22.png",
+                "type": "Image",
+                "description": ""
+            }
+        ]
     },
     {
-        "name": "apprentissage du C# avec OpenClassroom",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
+        "name": "Réalisation d'un petit jeux vidéo (10 Years)",
+        "icon": "assets/10Y/icon.png",
+        "description": "A la suite du lycée, j'ai souhaité continué à en apprendre plus sur les programmation et en particulier sur la création de jeux vidéo. j'ai donc commencer un cours sur Udemy que j'ai rapidement mis en pause pour en apprendre plus sur la modélisation 3D sous Blender. Une fois mon niveau de modélisation suffisant j'ai commencer a créer divers assets que j'ai pu utiliser dans mon apprentissage de Unity. J'ai continué mon apprentissage jusqu'au début de la prépa au par la suite je n'ai pas pu me dégager suffisament de temps pour continuer.",
+        "date": "2018",
+        "duration": "P2Y",
+        "images": [
+            {
+                "icon": "assets/10Y/10Y_1.png",
+                "type": "Image",
+                "description": "intégration de nouveaux batiment comme l'église ajout d'arbre, ajout des tombe modélmiser avec du displacement map pour donner un effet pierre, ajout des lumière"
+            },
+            {
+                "icon": "assets/10Y/10Y_2.png",
+                "type": "Image",
+                "description": "essaie de rendu et de gameplay de la première zone de jeu ainsi que de la zone de transition entre les deux zone de jeu"
+            },
+            {
+                "icon": "assets/10Y/10Y_3.png",
+                "type": "Image",
+                "description": "première zone de jeu permettant les essais de gameplay"
+            },
+            {
+                "icon": "assets/10Y/10Y_4.png",
+                "type": "Image",
+                "description": "vue la zone de jeu entière non fini avec un effet de nuit"
+            },
+            {
+                "icon": "assets/10Y/10Y_5.png",
+                "type": "Image",
+                "description": "essaie de réalisation d'une zone urbaineen dupliquant des façade de batiment"
+            },
+            {
+                "icon": "assets/10Y/10Y_6.png",
+                "type": "Image",
+                "description": "vue du player depuis l'intérieur de la maison de départ"
+            },
+            {
+                "icon": "assets/10Y/10Y_7.png",
+                "type": "Image",
+                "description": "essaie de rendu de la zone de jeu de départ avec un effet de nuit"
+            },
+            {
+                "icon": "assets/10Y/10Y_8.png",
+                "type": "Image",
+                "description": "vue sur la maison de départ"
+            },
+            {
+                "icon": "assets/10Y/10Y_9.png",
+                "type": "Image",
+                "description": "vue sur la maison de départ"
+            },
+            {
+                "icon": "assets/10Y/10Y_12.png",
+                "type": "Image",
+                "description": "zone de jeu de départ sans lumière"
+            },
+            {
+                "icon": "assets/10Y/10Y_11.png",
+                "type": "Image",
+                "description": "zone de jeu de départ avec lumière"
+            },
+            {
+                "icon": "assets/10Y/10Y_13.png",
+                "type": "Image",
+                "description": "zone de jeu de départ"
+            }
+        ]
     },
     {
-        "name": "apprentissage de blender avec Udemy",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
+        "name": "Présentation de mon jeux lors d'une LAN party à l'IUT d'Elbeuf",
+        "icon": "assets/lan/lan_0.jpg",
+        "description": "J'ai aidé des camarades pour l'organisation d'une LAN party à l'IUT d'Elbeuf. J'ai profité de l'évènement, avec l'accord de mes camarades, pour présenter mes travaux sur mon jeu vidéo",
+        "date": "03/2019",
+        "duration": null,
+        "images": [
+            {
+                "icon": "assets/lan/lan_1.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/lan/lan_2.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/lan/lan_3.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/lan/lan_4.jpg",
+                "type": "Image",
+                "description": ""
+            }
+        ]
     },
     {
-        "name": "apprentissage de Unity avec Udemy",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
+        "name": "Particiapation à une table ronde sur la créatrion de jeux vidéo à l'IUT d'Elbeuf",
+        "icon": "assets/trjv/trjv.jpg",
+        "description": "En discutant avec un de mes enseignant qui était aussi responsable de la fillière Réseaux et Télécomminucations à l'IUT d'Elbeuf, j'ai evoqué je developpait un jeux vidéo. Mon proffesseur, M. Chaudemanche, m'a alors demandé de participé à une table ronde sur la création de jeux vidéo dans le cadre des 20 ans de l'IUT. J'ai donc participé à une table ronde sur la création de jeux 3D en compagnie de professionnel du secteur et animé par M. Chaudemanche.",
+        "date": "06/2019",
+        "duration": null,
+        "images": [
+            {
+                "icon": "assets/trjv/trjv_1.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/trjv/trjv_2.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/trjv/trjv_3.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/trjv/trjv_4.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/trjv/trjv_5.jpg",
+                "type": "Image",
+                "description": ""
+            },
+            {
+                "icon": "assets/trjv/trjv_6.png",
+                "type": "Image",
+                "description": ""
+            }
+        ]
     },
     {
-        "name": "réalisation d'un petit jeux vidéo",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "présentation de mon jeux lors d'une LAN party à l'IUT d'Elbeuf",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "particiapation à une table ronde sur la créatrion de jeux vidéo à l'IUT d'Elbeuf",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "particiaption à au Startup week-end de Rouen 2019",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "participation au challenge NAE",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "particiaption d'un hackathon Tech for good par Latitudes 76",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "portefolio en ligne",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "projet de demonstration de compétence",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "Easy Save",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "Factory Frenzy",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "Linkeats",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
+        "name": "Projet divers",
+        "icon": "assets/achivement.png",
+        "description": "Au cours des toutes ces années j'ai aussi participé à divers évènements et réalisé divers cours projets d'initiative personelle.",
+        "date": "01/2019",
+        "duration": null,
+        "images": [
+            {
+                "icon": "assets/divers/bytewise.bmp",
+                "type": "Image",
+                "description": "Lors de mon travail chez Ayonis, Michelin nous a demander d'implémenter un type de graphique trés particulier. Mon responsable n'a pas lancé ce développement car relativement compliqué et pas la priorité. Par curiosité j'ai decidé de tester mes capacité un week end sur la réalisation d'un control windows Forms permettant l'affichage de ce graphique. Le résultat fut trés concluant et permis la vente de se développement à Michelin"
+            },
+            {
+                "icon": "assets/divers/easySave.png",
+                "type": "Image",
+                "description": "A la fin d'un projet école sur le développement logiciel avec WPF, certains camarades qui n'étais pas dans mon groupe n'ont pas pu valider ce projet. Sans aide du CESI, il se retrouvère seul a devoir refaire le projet individuellement. J'ai donc décidé de rédiger un cours sur le C# et des les accompagner individuellement pour qu'il puisse réussir le projet. J'ai donc organisé et animé plusieurs cours sur du développement logiciel en C#. Grâce à mes cours ils réussirent tous haut la main le projet"
+            },
+            {
+                "icon": "assets/divers/hackathon.jpg",
+                "type": "Image",
+                "description": "Durant les années CESI, j'ai participer à un hackathon organisé par Latitude Tech for good. L'objectif de notre équipe était de présenter un moyens de communication des information de la ville aux touriste de Rouen. Nous avons donc developper une PWA (Progressiv Web App), qui permet un deploiment rapide sur tout type d'appereil. à la fin notre à remporter le prix de la meilleur UI/UX"
+            },
+            {
+                "icon": "assets/divers/nae.jpg",
+                "type": "Image",
+                "description": "Durant les années CESI, j'ai participer au Challenges NAE. ce challenge est découpé en deux parties : une partie en présentielle à l'aéroport du Havre pour un concours de pilotage de drones et de culture général sur l'aéronotique. Puis une seconde parti sur le développement de programme en python permmettant le controle des drones. l'objectif etait de programmer un vol en essaim, un controle gestuelle et un suivi de visage. à la fin des epreuves notre équipes est arrivé 3ème"
+            },
+            {
+                "icon": "assets/divers/startupWE2019.jpg",
+                "type": "Image",
+                "description": "Durant les année d'IUT j'ai participé au startup week-end de Rouen 2019 sur la silver economy. J'ai intégrer un projet appelé VoyageR permettant aux personnes à mobilité réduite de visité divers monument en réalité virtuelle"
+            },
+            {
+                "icon": "assets/divers/toeic.jpg",
+                "type": "Image",
+                "description": "Avec le CESI j'ai pu valider mon TOEIC necessaire à l'obtention de mon diplôme d'ingénieur. J'ai obtenu 845 comme score final"
+            },
+            {
+                "icon": "assets/divers/veilleTechno_1.png",
+                "type": "Image",
+                "description": "Au sein d'Ayonis, beaucoup d'éléments est du code legacy fonctionnant sous .NET Framework. Cependant Microsoft pousse de plus en plus vers .NET et vient de déclarer la fin du .NET Framework 4.7 pour 2027. C'est pourquoi j'ai commencé à faire un état des lieux sur mon temps des potentiel problèmes"
+            },
+            {
+                "icon": "assets/divers/veilleTechno_2.png",
+                "type": "Image",
+                "description": "Les logiciels Ayonis utilise la technologie Windows Forms. Cependant cette technologie n'utilise pas l'accélération matérielle ce qui ralenti l'affichage du logiciel. C'est pourquoi j'ai commencé a faire des comparaison de performance avec WPF."
+            }
+        ]
     },
     {
         "name": "Galaxy",
         "icon": "assets/img.png",
         "description": "lorem ipsum",
-        "image": []
+        "date": "10/2020",
+        "duration": "P4Y",
+        "images": [
+            {
+                "icon": "assets/Galaxy/glx_1.png",
+                "type": "Image",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Linkeats",
+        "icon": "assets/img.png",
+        "description": "lorem ipsum",
+        "date": "01/2023",
+        "duration": null,
+        "images": []
+    },
+    {
+        "name": "Factory Frenzy",
+        "icon": "assets/FactoryFrenzy/ff.jpg",
+        "description": "Projet école pour apprendre la réalité virtuelle, augmenté et mixte. L'objectif principale du projet est d'apprendre les base de la 3D et du moteur Unity. étant déjà relativement bien avancé j'ai principalement aidé mes camarades sur différents sujet. J'ai pu les aider a debugguer leur projet, leur montrer comment faire certaines taches et corrigé quelques erreurs dans les ennoncés.",
+        "date": "05/2024",
+        "duration": null,
+        "images": [
+            {
+                "icon": "assets/FactoryFrenzy/IMG/PC_PLA_P1.png",
+                "description": "Le jeu doit utiliser le component Character Controller",
+                "type": "Image"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_PLA_P2.mp4",
+                "description": "Le jeu doit avoir une plateforme de début de course",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_PLA_P3.mp4",
+                "description": "Le jeu doit avoir une plateforme de fin de course",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_PLA_P4_1.mp4",
+                "description": "Le jeu doit avoir des platforms classique ainsi qu'une gestion des chutes. (joueur local)",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_PLA_P4_2.mp4",
+                "description": "Le jeu doit avoir des platforms classique ainsi qu'une gestion des chutes. (joueur distant)",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_PLA_P5.mp4",
+                "description": "Le jeu doit avoir des platform mouvante",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_PLA_P6.mp4",
+                "description": "Le jeu doit avoir une platforme rebondissante dite trampoline",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_PLA_P7.mp4",
+                "description": "Le jeu doit avoir des checkpoint",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_TRA_T1.mp4",
+                "description": "Le jeu doit avoir des piège rebondissant appelé bumper",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_TRA_T2.mp4",
+                "description": "Le jeu doit avoir des pièges style tourelle automatique. La fonctionalité doit implémenter le pattern Machine a état fini (FSM) passant d'un état repos, mise en ligne de mire d'un joueur avant de lancer des projectile sur le joueur",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_TRA_T3.mp4",
+                "description": "Le jeu doit avoir des piège style ventilateur repoussant les joueurs",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_LOB_L1_1.mp4",
+                "description": "Le jeu etant multijoueur doit avoir un lobby. Pour cette fonctionalité je suis aller plus loin qu'attentu en utilisant le service de Lobby de Unity. (Création du lobby)",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_LOB_L1_2.mp4",
+                "description": "Le jeu etant multijoueur doit avoir un lobby. Pour cette fonctionalité je suis aller plus loin qu'attentu en utilisant le service de Lobby de Unity. (Intégration du lobby)",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/PC_LOB_L2.mp4",
+                "description": "Les maps chargé pour la partie doivent être ceux edité en réalité virtuelle",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP1-1.mp4",
+                "description": "L'éditeur en réalité virtuelle doit permettre la téléportation du joueur",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP1-2.mp4",
+                "description": "L'éditeur en réalité virtuelle doit permmettre de créer des objet 3D à partir d'une UI",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP1-3.mp4",
+                "description": "L'éditeur en réalité virtuelle doit permettre d'attraper et de placer dans l'espace des objet 3D",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP1-4.mp4",
+                "description": "L'éditeur en réalité virtuelle doit permmettre la supression des éléments placés",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP1-5.png",
+                "description": "L'éditeur en réalité virtuelle doit pouvoir exporter le niveau configurer au format JSON",
+                "type": "Image"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP1-6.mp4",
+                "description": "L'éditeur en réalité virtuelle doit fournir différent retour à l'utilisateur en utilisant les vibrations des manette ou encore le son",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP2-1.mp4",
+                "description": "L'éditeur en réalité virtuelle doit fournit des aides au placement appelé le snap permettant d'aligner automatiquement des plateformes entre elles",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP2-2.mp4",
+                "description": "L'éditeur en réalité virtuelle doit permettre le vérouillage des élément placer afin de plus pouvoir les déplacer une fois vérouillé",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP2-3_1.mp4",
+                "description": "L'éditeur en réalité virtuelle doit permettre le parametrage des élément parametrable comme les pièges ou la plateforme mouvante. (vue VR)",
+                "type": "Video"
+            },
+            {
+                "icon": "assets/FactoryFrenzy/VR_FP2-3_2.png",
+                "description": "L'éditeur en réalité virtuelle doit permettre le parametrage des élément parametrable comme les pièges ou la plateforme mouvante. (contenu du JSON)",
+                "type": "Image"
+            }
+        ]
     },
     {
         "name": "ICM",
         "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
+        "description": "Suite à de nombreuse plainte de client sur l'IHM peu moderne et peu attractif d'ICM, logiciel le plus vendu d'Ayonis. Altimet a fait des propositions de design à l'équipe de développement logiciel. J'ai alors demandé si j'avais aussi le droit de proposer un design. Aprés que l'on m'ai donné le feu j'ai présenter mon nouveau design à la direction d'Altimet qui m'a tout de suite chargé de la refonte d'ICM. J'ai donc été en charge de développer mes idée et de les présenter aux équipes Ayonis et Altimet afin de prendre en compte leur remarque. J'ai donc été en charge de la gestion de projet de cette refonte graphique.",
+        "date": "2023",
+        "duration": "P1Y",
+        "images": [
+            {
+                "icon": "assets/icm/pre-proposition.png",
+                "type": "Image",
+                "description": "Proposition initial réaliser par la direction d'altimet"
+            },
+            {
+                "icon": "assets/icm/old/splashscreen.png",
+                "type": "Image",
+                "description": "ancien slpashscreen"
+            },
+            {
+                "icon": "assets/icm/new/splashscreen.png",
+                "type": "Image",
+                "description": "nouveau desing slpashscreen"
+            },
+            {
+                "icon": "assets/icm/new/splashscreen_real.png",
+                "type": "Image",
+                "description": "nouveau rendu slpashscreen"
+            },
+            {
+                "icon": "assets/icm/old/cam.png",
+                "type": "Image",
+                "description": "ancienne vue caméra"
+            },
+            {
+                "icon": "assets/icm/new/cam_1.png",
+                "type": "Image",
+                "description": "nouveau design vue caméra"
+            },
+            {
+                "icon": "assets/icm/new/cam_1_real.png",
+                "type": "Image",
+                "description": "nouveau rendu vue caméra"
+            },
+            {
+                "icon": "assets/icm/new/cam_2.png",
+                "type": "Image",
+                "description": "nouveau design vue caméra"
+            },
+            {
+                "icon": "assets/icm/new/cam_2_real.png",
+                "type": "Image",
+                "description": "nouveau rendu vue caméra"
+            },
+            {
+                "icon": "assets/icm/new/cam_3.png",
+                "type": "Image",
+                "description": "nouveau design vue caméra"
+            },
+            {
+                "icon": "assets/icm/new/cam_3_real.png",
+                "type": "Image",
+                "description": "nouveau rendu vue caméra"
+            },
+            {
+                "icon": "assets/icm/old/lot.png",
+                "type": "Image",
+                "description": "ancienne vue lot"
+            },
+            {
+                "icon": "assets/icm/new/lot.png",
+                "type": "Image",
+                "description": "nouveau design vue lot"
+            },
+            {
+                "icon": "assets/icm/new/lot_real.png",
+                "type": "Image",
+                "description": "nouveau rendu vue lot"
+            },
+            {
+                "icon": "assets/icm/old/pieces.png",
+                "type": "Image",
+                "description": "ancienne vue pièces"
+            },
+            {
+                "icon": "assets/icm/new/pieces.png",
+                "type": "Image",
+                "description": "nouveau design vue pièces"
+            },
+            {
+                "icon": "assets/icm/new/pieces_real.png",
+                "type": "Image",
+                "description": "nouveau rendu vue pièces"
+            },
+            {
+                "icon": "assets/icm/old/prog.png",
+                "type": "Image",
+                "description": "ancienne vue programmation"
+            },
+            {
+                "icon": "assets/icm/new/prog.png",
+                "type": "Image",
+                "description": "nouveau design vue programation"
+            },
+            {
+                "icon": "assets/icm/new/prog_real.png",
+                "type": "Image",
+                "description": "nouveau rendu vue programation"
+            },
+            {
+                "icon": "assets/icm/ICMv2_1.jpg",
+                "type": "Image",
+                "description": "nouveau design avec avec la machine associé"
+            },
+            {
+                "icon": "assets/icm/ICMv2_2.jpg",
+                "type": "Image",
+                "description": "zoom sur l'ecran du nouveau design"
+            }
+        ]
     },
     {
         "name": "CWS SDK",
-        "icon": "assets/img.png",
+        "icon": "assets/cws/cws.png",
         "description": "lorem ipsum",
-        "image": []
-    },
-    {
-        "name": "Certification C# freeCodeCamp",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
-        "image": []
+        "date": "07/2023",
+        "duration": "P3M",
+        "images": [
+            {
+                "icon": "assets/cws/cws_1.png",
+                "type": "Image",
+                "description": "logiciel sous labView permettant l'acquisition des donnée. J'ai fait du retro engineering sur ce logiciel afin d'extraire les fonction de control du CWS afin de réaliser un SDK"
+            },
+            {
+                "icon": "assets/cws/cws_2.png",
+                "type": "Image",
+                "description": "logiciel console d'Analyse. ce logiciel fonctionne comme un agent et fait les calculs pour chaque mesure effectué. Le SDK l'orchestre pour simplifier l'utilisation du CWS"
+            },
+            {
+                "icon": "assets/cws/cws_3.mp4",
+                "type": "Video",
+                "description": "Premier tests sur les composants individuelles du CWS"
+            },
+            {
+                "icon": "assets/cws/cws_4.jpg",
+                "type": "Image",
+                "description": "Utilisation d'un CWS prototype en laboratoire afin de validé le bon fonctionnement du SDK avec un capteur prototype"
+            },
+            {
+                "icon": "assets/cws/cws_5.jpg",
+                "type": "Image",
+                "description": "Laboratoire de QISAB à Halmstad, où j'ai réalisé mes tests"
+            },
+            {
+                "icon": "assets/cws/cws_6.jpg",
+                "type": "Image",
+                "description": "Laboratoire de QISAB à Halmstad, où j'ai réalisé mes tests"
+            },
+            {
+                "icon": "assets/cws/cws_7.jpg",
+                "type": "Image",
+                "description": "Installation et branchement du PC au capteur pour tester le SDK sur un capteur prototype"
+            },
+            {
+                "icon": "assets/cws/cws_8.png",
+                "type": "Image",
+                "description": "Une fois les test validé, j'ai pu recevoir un vrai capteur prêt à la ventes pour valider mes test, et optimiser le SDK"
+            },
+            {
+                "icon": "assets/cws/cws_9.png",
+                "type": "Image",
+                "description": "CWS avec sa fibre"
+            },
+            {
+                "icon": "assets/cws/cws_10.png",
+                "type": "Image",
+                "description": "CWS installé sur mon bureau afin de réaliser des tests de performances"
+            },
+            {
+                "icon": "assets/cws/demo.mp4",
+                "type": "Video",
+                "description": "Vidéo présneter à la direction d'Altimet sur la simplicité d'utilisation du SDK (se connecter, mesurer, éteindre). Il est tout de même possible de récuperer l'image en direct et de configurer la puissance du laser"
+            },
+            {
+                "icon": "assets/cws/cws_11.png",
+                "type": "Image",
+                "description": "Déclaration du président d'Altimet, M. Carras, sur le projet SEPO450 financé en partie pare la région Rhone Alpes"
+            },
+            {
+                "icon": "<iframe src=\"https: //www.linkedin.com/embed/feed/update/urn:li:share:7209210421415657472\" height=\"1089\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Post intégré\"></iframe>",
+                "type": "Text",
+                "description": "la région auvergne Rhone Alpes a selection le projet BWS, évolution du CWS, comme projet d'avenir a financé une partie du projet"
+            },
+            {
+                "icon": "assets/cws/bws_3.png",
+                "type": "Image",
+                "description": "Le BWS est une évolution du CWS permettant plus de mesures. Ce capteur est toujours au stade expérimental. Pour son développement j'ai été mendaté par M. Baath, inventeur du CWS et BWS pour la création d'un outil permettant la visualisation de plusieurs informations en direct sur l'image. Cette vue permet la visualisation de l'angle polar de l'iamge"
+            },
+            {
+                "icon": "assets/cws/bws_2.png",
+                "type": "Image",
+                "description": "Vue permettant la visualisation de l'intensité global de l'image"
+            },
+            {
+                "icon": "assets/cws/bws_1.png",
+                "type": "Image",
+                "description": "Vue permettant la visualisation de l'extraction des images de la caméra polarisé"
+            }
+        ]
     }
 ]

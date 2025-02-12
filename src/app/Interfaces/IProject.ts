@@ -3,12 +3,20 @@ export interface IProject
     name: string;
     description: string;
     icon: string;
-    images : IDescriptImage[];
+    images : IDescriptedMedia[];
 }
 
-export interface IDescriptImage
+export interface IDescriptedMedia
 {
-    path: string;
+    icon: string;
     description: string;
-    title: string;
+    type: EMediaType;
+}
+
+
+export enum EMediaType
+{
+    Image,
+    Video,
+    Text
 }

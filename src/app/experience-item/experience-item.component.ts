@@ -2,6 +2,7 @@ import { Component, Input } from '@angular/core';
 import { IExperience } from '../Interfaces/IExperience';
 import { MatCardModule } from '@angular/material/card';
 
+
 @Component({
   selector: 'app-experience-item',
   imports: [MatCardModule],
