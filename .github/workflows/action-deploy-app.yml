@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - master
-  workflow_dispatch:
-  
+
+      
+  workflow_dispatch:  
 jobs:
   run_pull:
     name: run pull
@@ -15,14 +16,13 @@ jobs:
     - name: install keys
       run : install -m 600 -D /dev/null ~/.ssh/id_rsa
 
-    - name: Setup SSH Key
+    - name: Configure SSH
       run: |
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-    
-    - name: Add server to known_hosts
-      run: ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
+        ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
 
     - name: Test SSH Connection
       run: ssh -v -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}
