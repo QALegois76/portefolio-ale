@@ -1,0 +1,201 @@
+.star-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    /* Derrière tout */
+    pointer-events: none;
+    overflow: hidden;
+}
+
+@keyframes twinkle {
+
+    0%,
+    100% {
+        opacity: 0.3;
+        scale: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle 5s infinite alternate ease-in-out;
+    transition: transform 1s linear;
+    /* Rend le mouvement fluide */
+}
+
+@keyframes shooting-star {
+    0% {
+        transform: translateX(0) translateY(0) rotate(-45deg);
+        opacity: 1;
+        width: 2px;
+        height: 30px;
+    }
+
+    50% {
+        opacity: 1;
+        width: 2px;
+        height: 50px;
+    }
+
+    100% {
+        transform: translateX(50vw) translateY(50vh) rotate(-45deg);
+        opacity: 0;
+        width: 2px;
+        height: 70px;
+    }
+}
+
+.shooting-star {
+    position: absolute;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    border-radius: 2px;
+    opacity: 0;
+    transform: rotate(-45deg);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    animation: shooting-star 1.5s ease-out forwards;
+}
+
+@keyframes nebula-move {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    100% {
+        transform: translate(50px, -30px) scale(1.1);
+    }
+}
+
+@keyframes nebula-color {
+    0% {
+        background: radial-gradient(circle, rgba(150, 75, 255, 0.2), rgba(75, 0, 130, 0.05));
+    }
+
+    33% {
+        background: radial-gradient(circle, rgba(255, 105, 180, 0.2), rgba(139, 0, 139, 0.05)); // Rose / Magenta
+    }
+
+    66% {
+        background: radial-gradient(circle, rgba(255, 165, 0, 0.2), rgba(255, 69, 0, 0.05)); // Orange
+    }
+
+    100% {
+        background: radial-gradient(circle, rgba(150, 75, 255, 0.2), rgba(75, 0, 130, 0.05)); // Retour au violet
+    }
+}
+
+/* Effet principal des nébuleuses */
+.nebula {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    filter: blur(80px);
+    opacity: 0.6;
+    animation: nebula-move 20s infinite alternate ease-in-out,
+        nebula-color 30s infinite alternate ease-in-out;
+}
+
+/* Brume centrale plus dense */
+.nebula::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0));
+    filter: blur(100px);
+    opacity: 0.7;
+    animation: nebula-fade 15s infinite alternate ease-in-out;
+}
+
+@keyframes nebula-fade {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0.8;
+        transform: scale(1.2);
+    }
+}
+
+
+
+@keyframes black-hole-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes gravitational-lens {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Trou noir */
+.black-hole {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(255, 255, 255, 1) 85%, rgba(255, 106, 0, 0.6) 90%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+    /* Ombre pour l'effet de profondeur */
+}
+
+/* Anneau d’Einstein (lumière déviée autour du trou noir) */
+.black-hole::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: -25%;
+    left: -25%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(255, 255, 255, 1) 85%, rgba(255, 106, 0, 0.6) 90%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(5px);
+    animation: black-hole-spin 10s infinite linear;
+}
+
+/* Effet de lentille gravitationnelle */
+.distortion {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0));
+    filter: blur(20px);
+    animation: gravitational-lens 5s infinite alternate ease-in-out;
+}

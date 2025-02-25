@@ -16,45 +16,34 @@
             <p-carousel [value]="project.images" [numVisible]="2" [numScroll]="2" [circular]="true"
                 autoplayInterval="30000" [responsiveOptions]="responsiveOptions">
                 <ng-template let-item #item>
-
-                    <ng-container *ngIf="item.type === 'Image'; else checkVideo">
-                        <mat-card id="cardImgContent">
+                    <ng-container>
+                        <mat-card id="cardImgContent" (click)="onCardItemClick(item)">
                             <div id="divImgContent">
-                                <img id="imgContent" [src]="item.icon" alt="icon">
+                                @switch (item.type) {
+                                    @case ("Image") {
+                                        <img id="imgContent" [src]="item.icon" alt="icon">
+                                    }
+                                    @case ("Video") {
+                                        <video muted loop id="imgContent">
+                                            <source [src]="item.icon" type="video/mp4">
+                                            Votre navigateur ne supporte pas les vidéos.
+                                        </video>
+                                    }
+                                    @default {
+                                        <p class="media-content">{{ item.icon }}</p>
+                                    }
+                                }
                             </div>
-                            <mat-card-content>
-                                <p>
-                                    {{item.description}}
-                                </p>
+                            <mat-card-content id="card-content-media-description">
+                                <div id="div-media-description">
+                                    <p>
+                                        {{item.description}}
+                                    </p>
+                                </div>
                             </mat-card-content>
                         </mat-card>
                     </ng-container>
 
-                    <ng-template #checkVideo>
-                        <ng-container *ngIf="item.type === 'Video'; else checkText">
-
-
-                            <mat-card id="cardImgContent">
-                                <div id="divImgContent">
-                                    <video muted loop id="imgContent">
-                                        <source [src]="item.icon" type="video/mp4">
-                                        Votre navigateur ne supporte pas les vidéos.
-                                    </video>
-                                </div>
-                                <mat-card-content>
-                                    <p>
-                                        {{item.description}}
-                                    </p>
-                                </mat-card-content>
-                            </mat-card>
-
-
-                        </ng-container>
-                    </ng-template>
-
-                    <ng-template #checkText>
-                        <p class="media-content">{{ item.icon }}</p>
-                    </ng-template>
 
 
 

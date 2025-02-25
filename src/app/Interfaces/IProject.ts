@@ -1,8 +1,11 @@
+import { Timestamp } from "rxjs";
+
 export interface IProject
 {
     name: string;
     description: string;
     icon: string;
+    date: Date;
     images : IDescriptedMedia[];
 }
 

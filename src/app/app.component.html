@@ -1,18 +1,37 @@
-  <title>LEGOIS Antoine</title>
-  <header  id="header">
-    <h1>LEGOIS Antoine</h1>
-    <mat-toolbar>
-      <mat-toolbar-row id="mat-toolbar-row">
-          <a routerLink=""><button><mat-icon fontIcon="home"></mat-icon><h2>Informations</h2></button></a>
-          <a routerLink="formation"><button><mat-icon fontIcon="school"></mat-icon><h2>Formations</h2></button></a>
-          <a routerLink="experience"><button><mat-icon fontIcon="work"></mat-icon><h2>Expérience</h2></button></a>
-          <a routerLink="projet"><button><mat-icon fontIcon="construction"></mat-icon><h2>Projets</h2></button></a>
-          <a routerLink="competence"><button><mat-icon fontIcon="stars"></mat-icon><h2>Compétences</h2></button></a>
-          <a routerLink="contact" ><button><mat-icon fontIcon="mail"></mat-icon><h2>Contact</h2></button></a>
-      </mat-toolbar-row>
-    </mat-toolbar>
-  </header>
+<title>LEGOIS Antoine</title>
+<header id="header">
+  <h1>LEGOIS Antoine</h1>
+  <mat-toolbar>
+    <mat-toolbar-row id="mat-toolbar-row">
+      <a routerLink=""><button>
+          <mat-icon fontIcon="home"></mat-icon>
+          <h2>Informations</h2>
+        </button></a>
+      <a routerLink="formation"><button>
+          <mat-icon fontIcon="school"></mat-icon>
+          <h2>Formations</h2>
+        </button></a>
+      <a routerLink="experience"><button>
+          <mat-icon fontIcon="work"></mat-icon>
+          <h2>Expérience</h2>
+        </button></a>
+      <a routerLink="projet"><button>
+          <mat-icon fontIcon="construction"></mat-icon>
+          <h2>Projets</h2>
+        </button></a>
+      <!-- <a routerLink="competence"><button>
+          <mat-icon fontIcon="stars"></mat-icon>
+          <h2>Compétences</h2>
+        </button></a> -->
+      <a routerLink="contact"><button>
+          <mat-icon fontIcon="mail"></mat-icon>
+          <h2>Contact</h2>
+        </button></a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>
 
-  <body>
-    <router-outlet />
-  </body>
+<body >
+  <app-star-background-component></app-star-background-component>
+  <router-outlet></router-outlet>
+</body>

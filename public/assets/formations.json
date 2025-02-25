@@ -6,7 +6,7 @@
         "diploma": "Bac S Science de l'ingénieur (BAC SSI)",
         "option": "Informatique et Sciences du Numérique (ISN)",
         "icon": "assets/lbp.png",
-        "description": "projet de fin d'année participation à la coupe de France de robotique 2017, classement 215ème nous étions 2 lycée contre des école d'ingénieurs. Projet de fin d'année en ISN : création d'une application en python pour crypter des messages sur une image"
+        "description": "J’ai obtenu un **Bac S Sciences de l’Ingénieur (SI) spécialité Informatique et Sciences du Numérique (ISN)** au **Lycée Blaise Pascal de Rouen**, où j’ai acquis des bases en mécanique, électronique et programmation embarquée. En ISN, j’ai appris les fondamentaux de la cryptographie et du traitement d’images sous Python. Pour mon projet de SI, nous avons conçu un **robot pour la Coupe de France de Robotique** et, plutôt que d’utiliser Flowcode enseigné en cours, nous avons décidé d’apprendre **Arduino** par nous-mêmes durant nos week-ends. Nous avons réalisé plusieurs **prototypes**, testé des **cartes Arduino, moteurs et servomoteurs**, et développé notre propre système de contrôle, ce qui nous a permis d’approfondir nos compétences en ingénierie et programmation de manière autonome."
     },
     {
         "name": "IUT de Rouen site d'Elbeuf",
@@ -15,7 +15,7 @@
         "diploma": "DUT Réseaux et Télécommunications",
         "option": "",
         "icon": "assets/iut.png",
-        "description": "réaliser en alternance avec Orange"
+        "description": "J’ai suivi la formation Réseaux et Télécommunications à l’IUT d’Elbeuf en alternance chez Orange en tant que technicien réseaux structurants, ce qui m’a permis de travailler sur du matériel spécifique à un opérateur et d’intervenir sur des équipements fournissant Internet à des villes entières. J’ai acquis des compétences en administration réseau, gestion des infrastructures et sécurisation des communications, en travaillant sur toutes les technologies de transmission : cuivre (RTC, ADSL, VDSL), fibre optique (FTTH, FTTB, FTTO), réseaux cellulaires (3G, 4G, 5G) et liaisons hertziennes. Cette expérience m’a donné une vision globale des infrastructures d’Internet à l’échelle mondiale, depuis les réseaux d’accès jusqu’aux backbones internationaux."
     },
     {
         "name": "Lycée blaise Pascal Rouen",
@@ -23,7 +23,8 @@
         "end": "2020",
         "diploma": "Classe préparatoire aux grandes écoles (CPGE) ATS",
         "option": null,
-        "icon": "assets/lbp.png"
+        "icon": "assets/lbp.png",
+        "description": "La classe ATS (Adaptation Technicien Supérieur) au lycée Blaise Pascal est une formation d’un an destinée aux titulaires d’un BTS ou d’un DUT, offrant une transition vers les écoles d’ingénieurs en consolidant les bases scientifiques (mathématiques, physique, informatique). J’ai intégré cette classe pour renforcer mon niveau en matières théoriques, ce qui m’a permis de mieux me concentrer ensuite sur les aspects techniques de mon parcours. Cette expérience m’a apporté une rigueur scientifique et une meilleure compréhension des concepts essentiels pour mon évolution en ingénierie."
     },
     {
         "name": "CESI Rouen",
@@ -31,7 +32,8 @@
         "end": "2021",
         "diploma": "Ingénieur généraliste",
         "option": null,
-        "icon": "assets/cesi.png"
+        "icon": "assets/cesi.png",
+        "description": "J'ai intégré le CESI en ingénierie générale afin de pouvoir suivre une alternance chez Orange. Issu d’une prépa ATS, j’étais habitué à travailler dans divers domaines théoriques, mais j’aurais souhaité rejoindre la formation en informatique, qui n'était disponible en alternance qu'à partir de l’année suivante. J’ai donc demandé un changement de filière, une demande acceptée à la fois par le CESI et mon entreprise. Plus tard, Ayonis a accepté de renouveler mon contrat pour trois ans, me permettant ainsi de poursuivre mon parcours en alternance."
     },
     {
         "name": "CESI Rouen",
@@ -39,6 +41,7 @@
         "end": "2024",
         "diploma": "Ingénieur informatique",
         "option": "Developpement web, logiciel et réalité virtuelle",
-        "icon": "assets/cesi.png"
+        "icon": "assets/cesi.png",
+        "description": "Au CESI, j’ai pu explorer différents aspects de l’informatique, notamment à travers des projets en administration réseau, en développement logiciel sous .NET, en conception de bases de données relationnelles et NoSQL, ainsi qu’en utilisation de Hadoop. J’ai également travaillé sur des projets d’algorithmie en Python. Nous avons mêlé les matières scientifiques (mathématiques, physique) à l’informatique dans le cadre d’un projet visant à concevoir une encolleuse à partir d’une imprimante 3D Ender V3 et d’un Raspberry Pi. À cette occasion, j’ai développé un logiciel d’analyse d’image permettant de tracer des graphiques de l’épaisseur de la colle en fonction de sa longueur. Par la suite, nous avons dû choisir une spécialisation : développement ou administration réseau. J’ai opté pour le développement, ce qui m’a permis de réaliser un site web similaire à Uber Eats, appelé LinkEats. Ce projet reposait sur une architecture microservices avec Node.js, NGINX en tant que reverse proxy et middleware, ainsi que Vue.js et Vuetify pour le front-end. Enfin, j’ai choisi de travailler sous Unity afin de valider mes compétences en autodidacte. L’ensemble de ma formation au CESI s’est déroulé en alternance, d’abord avec Ayonis. Après son rachat par Altimet, j’ai eu la chance d’être conservé pour poursuivre mon diplôme et mon alternance. Grâce à Altimet, j’ai également pu réaliser une mobilité internationale en Suède de juillet à octobre 2023, où j’ai eu la responsabilité de concevoir et développer un SDK destiné à industrialiser un capteur breveté représentant l’avenir d’Altimet."
     }
 ]

@@ -1,0 +1,69 @@
+.dialog-project-media
+{
+  background-color: magenta;
+  padding: 10px;
+  border: solid red 1px;
+}
+
+
+mat-card {
+  background-color: rgb(59, 59, 59);
+  border-radius: 5;
+}
+
+
+
+
+
+
+
+#cardImgContent {
+  width: 100%;
+  background-color: #1C1C1C;
+  overflow: hidden;
+  text-align: justify;
+  padding: 10px;
+}
+
+
+#divImgContent {
+  width: 100%;
+
+  height: 400px;
+  max-height: 10cm;
+  overflow: hidden;
+}
+
+#imgContent {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+
+
+
+#card-content-media-description
+{
+  padding: 5px;
+  height: 3cm;
+}
+
+
+
+#div-media-description
+{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+button
+{
+  margin-left: auto;
+  margin-right: auto;
+}

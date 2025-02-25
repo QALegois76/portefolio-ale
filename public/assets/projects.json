@@ -1,7 +1,7 @@
 [
     {
         "name": "Coupe de France de robotique 2017",
-        "description": "Mon projet de fin d'année de lycée est la participation à la coupe de france de robotique. Mon groupe avons decider d'apprendre de nous même l'Arduino au lieu de réaliser les programmmes sous Flowcode, un logiciel no code permmettant de créer des programme sous forme de bloc visuel similiare à Scratch. Nous nous sommes acheté des composant électrique comme une carte Arduino UNO ainsi que des servo moteur et nous nous sommes entrainé à les piloter. Puis une fois notre prototype relativement bien avancer nous avons réaliser notre robot final avec les machines de découpe et d'impréssion 3D du lycée.",
+        "description": "Mon projet de fin d'année de lycée était la participation à la Coupe de France de robotique. Mon groupe a décidé d'apprendre de nous-mêmes l'Arduino au lieu de réaliser les programmes sous Flowcode, un logiciel no-code permettant de créer des programmes sous forme de blocs visuels similaires à Scratch. Nous nous sommes achetés des composants électriques comme une carte Arduino UNO ainsi que des servomoteurs et nous nous sommes entraînés à les piloter. Puis, une fois notre prototype relativement bien avancé, nous avons réalisé notre robot final avec les machines de découpe et d'impression 3D du lycée.",
         "icon": "assets/cdfr/cdfr.png",
         "date": "2017",
         "duration": null,
@@ -9,49 +9,49 @@
             {
                 "icon": "assets/cdfr/cdfr_1.jpg",
                 "type": "Image",
-                "description": "réalisation des premiers branchements"
+                "description": "Réalisation des premiers branchements"
             },
             {
                 "icon": "assets/cdfr/cdfr_2.jpg",
                 "type": "Image",
-                "description": "installation des sovo moteur sur la fourche"
+                "description": "Installation des servomoteurs sur la fourche"
             },
             {
                 "icon": "assets/cdfr/cdfr_3.jpg",
                 "type": "Image",
-                "description": "installation des sovo moteur sur la rampe"
+                "description": "Installation des servomoteurs sur la rampe"
             },
             {
                 "icon": "assets/cdfr/cdfr_4.jpg",
                 "type": "Image",
-                "description": "installation des sovo moteur sur le reservoir"
+                "description": "Installation des servomoteurs sur le réservoir"
             },
             {
                 "icon": "assets/cdfr/cdfr_5.jpg",
                 "type": "Image",
-                "description": "branchement des différentes pièces du robot"
+                "description": "Branchement des différentes pièces du robot"
             },
             {
                 "icon": "assets/cdfr/cdfr_6.jpg",
                 "type": "Image",
-                "description": "version final du robot"
+                "description": "Version finale du robot"
             },
             {
                 "icon": "assets/cdfr/cdfr_7.jpg",
                 "type": "Image",
-                "description": "branchement des différents equipement de la version final du robot"
+                "description": "Branchement des différents équipements de la version finale du robot"
             },
             {
                 "icon": "assets/cdfr/cdfr_8.jpg",
                 "type": "Image",
-                "description": "premiers test du robot final"
+                "description": "Premiers tests du robot final"
             }
         ]
     },
     {
-        "name": "Apprentissage de blender avec Udemy",
-        "icon": "assets/blender.png",
-        "description": "A la suite du lycée, j'ai souhaité continué à en apprendre plus sur les programmation et en particulier sur la création de jeux vidéo. Cependant je me suis vite rendu compte que je n'avait pas d'assets. J'ai donc mis pause l'étude de Unity et me lancer dans l'apprentissage de Blender. J'ai donc suivi en parallèle de mes études un cours Udemy sur la modelisation 3D sous Blender.",
+        "name": "Apprentissage de Blender avec Udemy",
+        "icon": "assets/blender/blender.png",
+        "description": "À la suite du lycée, j'ai souhaité continuer à en apprendre plus sur la programmation, en particulier sur la création de jeux vidéo. Cependant, je me suis vite rendu compte que je n'avais pas d'assets. J'ai donc mis en pause l'étude de Unity et me suis lancé dans l'apprentissage de Blender. J'ai ainsi suivi, en parallèle de mes études, un cours Udemy sur la modélisation 3D sous Blender.",
         "date": "2017",
         "duration": "P5Y",
         "images": [
@@ -168,78 +168,78 @@
         ]
     },
     {
-        "name": "Réalisation d'un petit jeux vidéo (10 Years)",
+        "name": "Réalisation d'un petit jeu vidéo (10 Years)",
         "icon": "assets/10Y/icon.png",
-        "description": "A la suite du lycée, j'ai souhaité continué à en apprendre plus sur les programmation et en particulier sur la création de jeux vidéo. j'ai donc commencer un cours sur Udemy que j'ai rapidement mis en pause pour en apprendre plus sur la modélisation 3D sous Blender. Une fois mon niveau de modélisation suffisant j'ai commencer a créer divers assets que j'ai pu utiliser dans mon apprentissage de Unity. J'ai continué mon apprentissage jusqu'au début de la prépa au par la suite je n'ai pas pu me dégager suffisament de temps pour continuer.",
+        "description": "À la suite du lycée, j'ai souhaité continuer à en apprendre plus sur la programmation, en particulier sur la création de jeux vidéo. J'ai donc commencé un cours sur Udemy que j'ai rapidement mis en pause pour approfondir la modélisation 3D sous Blender. Une fois mon niveau de modélisation suffisant, j'ai commencé à créer divers assets que j'ai pu utiliser dans mon apprentissage d'Unity. J'ai continué mon apprentissage jusqu'au début de la prépa, mais par la suite, je n'ai pas pu me dégager suffisamment de temps pour continuer.",
         "date": "2018",
         "duration": "P2Y",
         "images": [
             {
                 "icon": "assets/10Y/10Y_1.png",
                 "type": "Image",
-                "description": "intégration de nouveaux batiment comme l'église ajout d'arbre, ajout des tombe modélmiser avec du displacement map pour donner un effet pierre, ajout des lumière"
+                "description": "Intégration de nouveaux bâtiments, comme l'église, ajout d'arbres, ajout des tombes modélisées avec du displacement map pour donner un effet pierre, ajout des lumières."
             },
             {
                 "icon": "assets/10Y/10Y_2.png",
                 "type": "Image",
-                "description": "essaie de rendu et de gameplay de la première zone de jeu ainsi que de la zone de transition entre les deux zone de jeu"
+                "description": "Essai de rendu et de gameplay de la première zone de jeu ainsi que de la zone de transition entre les deux zones de jeu."
             },
             {
                 "icon": "assets/10Y/10Y_3.png",
                 "type": "Image",
-                "description": "première zone de jeu permettant les essais de gameplay"
+                "description": "Première zone de jeu permettant les essais de gameplay."
             },
             {
                 "icon": "assets/10Y/10Y_4.png",
                 "type": "Image",
-                "description": "vue la zone de jeu entière non fini avec un effet de nuit"
+                "description": "Vue de la zone de jeu entière non finie avec un effet de nuit."
             },
             {
                 "icon": "assets/10Y/10Y_5.png",
                 "type": "Image",
-                "description": "essaie de réalisation d'une zone urbaineen dupliquant des façade de batiment"
+                "description": "Essai de réalisation d'une zone urbaine en dupliquant des façades de bâtiments."
             },
             {
                 "icon": "assets/10Y/10Y_6.png",
                 "type": "Image",
-                "description": "vue du player depuis l'intérieur de la maison de départ"
+                "description": "Vue du player depuis l'intérieur de la maison de départ."
             },
             {
                 "icon": "assets/10Y/10Y_7.png",
                 "type": "Image",
-                "description": "essaie de rendu de la zone de jeu de départ avec un effet de nuit"
+                "description": "Essai de rendu de la zone de jeu de départ avec un effet de nuit."
             },
             {
                 "icon": "assets/10Y/10Y_8.png",
                 "type": "Image",
-                "description": "vue sur la maison de départ"
+                "description": "Vue sur la maison de départ."
             },
             {
                 "icon": "assets/10Y/10Y_9.png",
                 "type": "Image",
-                "description": "vue sur la maison de départ"
+                "description": "Vue sur la maison de départ."
             },
             {
                 "icon": "assets/10Y/10Y_12.png",
                 "type": "Image",
-                "description": "zone de jeu de départ sans lumière"
+                "description": "Zone de jeu de départ sans lumière."
             },
             {
                 "icon": "assets/10Y/10Y_11.png",
                 "type": "Image",
-                "description": "zone de jeu de départ avec lumière"
+                "description": "Zone de jeu de départ avec lumière."
             },
             {
                 "icon": "assets/10Y/10Y_13.png",
                 "type": "Image",
-                "description": "zone de jeu de départ"
+                "description": "Zone de jeu de départ."
             }
         ]
     },
     {
-        "name": "Présentation de mon jeux lors d'une LAN party à l'IUT d'Elbeuf",
+        "name": "Présentation de mon jeu lors d'une LAN party à l'IUT d'Elbeuf",
         "icon": "assets/lan/lan_0.jpg",
-        "description": "J'ai aidé des camarades pour l'organisation d'une LAN party à l'IUT d'Elbeuf. J'ai profité de l'évènement, avec l'accord de mes camarades, pour présenter mes travaux sur mon jeu vidéo",
+        "description": "J'ai aidé des camarades à organiser une LAN party à l'IUT d'Elbeuf. J'ai profité de l'événement, avec leur accord, pour présenter mes travaux sur mon jeu vidéo.",
         "date": "03/2019",
         "duration": null,
         "images": [
@@ -266,16 +266,16 @@
         ]
     },
     {
-        "name": "Particiapation à une table ronde sur la créatrion de jeux vidéo à l'IUT d'Elbeuf",
+        "name": "Participation à une table ronde sur la création de jeux vidéo à l'IUT d'Elbeuf",
         "icon": "assets/trjv/trjv.jpg",
-        "description": "En discutant avec un de mes enseignant qui était aussi responsable de la fillière Réseaux et Télécomminucations à l'IUT d'Elbeuf, j'ai evoqué je developpait un jeux vidéo. Mon proffesseur, M. Chaudemanche, m'a alors demandé de participé à une table ronde sur la création de jeux vidéo dans le cadre des 20 ans de l'IUT. J'ai donc participé à une table ronde sur la création de jeux 3D en compagnie de professionnel du secteur et animé par M. Chaudemanche.",
+        "description": "Lors d'une discussion avec l'un de mes enseignants, également responsable de la filière Réseaux et Télécommunications à l'IUT d'Elbeuf, j'ai évoqué que je développais un jeu vidéo. Mon professeur, M. Chaudemanche, m'a alors invité à participer à une table ronde sur la création de jeux vidéo dans le cadre des 20 ans de l'IUT. J'ai donc pris part à cette table ronde sur la création de jeux 3D, en compagnie de professionnels du secteur, animée par M. Chaudemanche.",
         "date": "06/2019",
         "duration": null,
         "images": [
             {
                 "icon": "assets/trjv/trjv_1.jpg",
                 "type": "Image",
-                "description": ""
+                "description": "Présentation et introduction des participants à la table ronde par le directeur du pôle Réseaux et Télécommunications de l'IUT d'Elbeuf, M. Chaudemanche."
             },
             {
                 "icon": "assets/trjv/trjv_2.jpg",
@@ -300,415 +300,551 @@
             {
                 "icon": "assets/trjv/trjv_6.png",
                 "type": "Image",
-                "description": ""
+                "description": "Image issue de la retransmission de la Web TV."
             }
         ]
     },
     {
-        "name": "Projet divers",
+        "name": "Projets Divers",
         "icon": "assets/achivement.png",
-        "description": "Au cours des toutes ces années j'ai aussi participé à divers évènements et réalisé divers cours projets d'initiative personelle.",
+        "description": "Au cours de ces dernières années, j'ai participé à divers événements et réalisé plusieurs projets d'initiative personnelle.",
         "date": "01/2019",
         "duration": null,
         "images": [
             {
-                "icon": "assets/divers/bytewise.bmp",
-                "type": "Image",
-                "description": "Lors de mon travail chez Ayonis, Michelin nous a demander d'implémenter un type de graphique trés particulier. Mon responsable n'a pas lancé ce développement car relativement compliqué et pas la priorité. Par curiosité j'ai decidé de tester mes capacité un week end sur la réalisation d'un control windows Forms permettant l'affichage de ce graphique. Le résultat fut trés concluant et permis la vente de se développement à Michelin"
-            },
-            {
                 "icon": "assets/divers/easySave.png",
                 "type": "Image",
-                "description": "A la fin d'un projet école sur le développement logiciel avec WPF, certains camarades qui n'étais pas dans mon groupe n'ont pas pu valider ce projet. Sans aide du CESI, il se retrouvère seul a devoir refaire le projet individuellement. J'ai donc décidé de rédiger un cours sur le C# et des les accompagner individuellement pour qu'il puisse réussir le projet. J'ai donc organisé et animé plusieurs cours sur du développement logiciel en C#. Grâce à mes cours ils réussirent tous haut la main le projet"
+                "description": "À la fin d'un projet scolaire sur le développement logiciel avec WPF, certains camarades n'étant pas dans mon groupe n'ont pas pu valider ce projet. Sans l'aide du CESI, ils se retrouvaient seuls à devoir refaire le projet individuellement. J'ai donc décidé de rédiger un cours sur le C# et de les accompagner individuellement pour les aider à réussir le projet. J'ai organisé et animé plusieurs cours sur le développement logiciel en C#. Grâce à mes cours, tous ont réussi le projet avec brio."
             },
             {
                 "icon": "assets/divers/hackathon.jpg",
                 "type": "Image",
-                "description": "Durant les années CESI, j'ai participer à un hackathon organisé par Latitude Tech for good. L'objectif de notre équipe était de présenter un moyens de communication des information de la ville aux touriste de Rouen. Nous avons donc developper une PWA (Progressiv Web App), qui permet un deploiment rapide sur tout type d'appereil. à la fin notre à remporter le prix de la meilleur UI/UX"
+                "description": "Pendant mes années au CESI, j'ai participé à un hackathon organisé par Latitude Tech for Good. L'objectif de notre équipe était de proposer un moyen de communication des informations de la ville aux touristes de Rouen. Nous avons développé une PWA (Progressive Web App), permettant un déploiement rapide sur tout type d'appareil. À la fin, notre équipe a remporté le prix de la meilleure UI/UX."
             },
             {
                 "icon": "assets/divers/nae.jpg",
                 "type": "Image",
-                "description": "Durant les années CESI, j'ai participer au Challenges NAE. ce challenge est découpé en deux parties : une partie en présentielle à l'aéroport du Havre pour un concours de pilotage de drones et de culture général sur l'aéronotique. Puis une seconde parti sur le développement de programme en python permmettant le controle des drones. l'objectif etait de programmer un vol en essaim, un controle gestuelle et un suivi de visage. à la fin des epreuves notre équipes est arrivé 3ème"
+                "description": "Au cours de mes années au CESI, j'ai participé au Challenge NAE. Ce challenge était divisé en deux parties : une première en présentiel à l'aéroport du Havre, où nous avons concouru sur la culture générale en aéronautique et le pilotage de drones, puis une seconde partie axée sur le développement d'un programme en Python permettant le contrôle des drones. L'objectif était de programmer un vol en essaim, un contrôle gestuel et un suivi de visage. À la fin des épreuves, notre équipe a terminé 3ème."
             },
             {
                 "icon": "assets/divers/startupWE2019.jpg",
                 "type": "Image",
-                "description": "Durant les année d'IUT j'ai participé au startup week-end de Rouen 2019 sur la silver economy. J'ai intégrer un projet appelé VoyageR permettant aux personnes à mobilité réduite de visité divers monument en réalité virtuelle"
+                "description": "Pendant mes années à l'IUT, j'ai participé au Startup Week-end de Rouen 2019, axé sur la silver economy. J'ai intégré un projet appelé VoyageR, qui permet aux personnes à mobilité réduite de visiter divers monuments en réalité virtuelle."
             },
             {
                 "icon": "assets/divers/toeic.jpg",
                 "type": "Image",
-                "description": "Avec le CESI j'ai pu valider mon TOEIC necessaire à l'obtention de mon diplôme d'ingénieur. J'ai obtenu 845 comme score final"
+                "description": "Avec le CESI, j'ai validé mon TOEIC, nécessaire à l'obtention de mon diplôme d'ingénieur. J'ai obtenu un score final de 845."
             },
             {
                 "icon": "assets/divers/veilleTechno_1.png",
                 "type": "Image",
-                "description": "Au sein d'Ayonis, beaucoup d'éléments est du code legacy fonctionnant sous .NET Framework. Cependant Microsoft pousse de plus en plus vers .NET et vient de déclarer la fin du .NET Framework 4.7 pour 2027. C'est pourquoi j'ai commencé à faire un état des lieux sur mon temps des potentiel problèmes"
+                "description": "Au sein d'Ayonis, de nombreux éléments reposent sur du code legacy fonctionnant sous .NET Framework. Cependant, Microsoft pousse de plus en plus vers .NET et a annoncé la fin de .NET Framework 4.7 pour 2027. C'est pourquoi j'ai entrepris un état des lieux afin d'identifier les problèmes potentiels."
             },
             {
                 "icon": "assets/divers/veilleTechno_2.png",
                 "type": "Image",
-                "description": "Les logiciels Ayonis utilise la technologie Windows Forms. Cependant cette technologie n'utilise pas l'accélération matérielle ce qui ralenti l'affichage du logiciel. C'est pourquoi j'ai commencé a faire des comparaison de performance avec WPF."
+                "description": "Les logiciels d'Ayonis utilisent la technologie Windows Forms, mais cette technologie n'exploite pas l'accélération matérielle, ce qui ralentit l'affichage du logiciel. J'ai donc commencé à comparer les performances avec WPF."
             }
         ]
     },
     {
         "name": "Galaxy",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
+        "icon": "assets/Galaxy/glx.png",
+        "description": "Galaxy est le logiciel d'avenir d'Ayonis. C'est un logiciel hautement polyvalent. Son objectif à long terme est de remplacer tous les logiciels existants au sein d'Ayonis, y compris le logiciel vieillissant Deltec et ICM. Galaxy a la particularité d'être extrêmement polyvalent en termes d'équipements et de capteurs. C'est le seul logiciel permettant de la 3D grâce à la numérisation 3D de pièces sous forme d'un nuage de points. Le développement de Galaxy a commencé en 2015 pour la machine DS331 à double capteur confocal permettant le scan du dessus et du dessous d'une pièce. Puis, voyant le potentiel de Galaxy et le besoin de s'adapter au marché, une nouvelle version de Galaxy a été lancée : Galaxy Standard. C'est sur ce projet que j'ai été recruté en alternance afin d'aider à la sortie de Galaxy Standard. Il faut adapter les différents modules des autres logiciels pour Galaxy afin de le rendre compatible avec toutes les machines.",
         "date": "10/2020",
         "duration": "P4Y",
         "images": [
             {
                 "icon": "assets/Galaxy/glx_1.png",
                 "type": "Image",
-                "description": ""
+                "description": "Galaxy est un outil destiné à différents publics : des métrologues et des opérateurs. C'est pourquoi il existe des niveaux d'accès dans le logiciel afin de restreindre certaines actions. Il a été demandé par des clients de simplifier l'interface pour les opérateurs en cachant ou en limitant l'accès à certaines vues du logiciel. J'ai donc été chargé de réaliser le configurateur ci-dessus."
+            },
+            {
+                "icon": "assets/Galaxy/glx_2.png",
+                "type": "Image",
+                "description": "Les machines Galaxy permettent une grande polyvalence d'équipements. C'est pourquoi il m'a été demandé de réaliser une vue à destination de nos techniciens de mise en route et SAV sur la configuration des mouvements de l'autofocus. Par défaut, il existe deux configurations dites standard, mais pour des besoins plus spécifiques de clients, il est possible de créer ou modifier de nouvelles configurations."
+            },
+            {
+                "icon": "assets/Galaxy/glx_3.png",
+                "type": "Image",
+                "description": "Dans la même logique que précédemment, Galaxy peut gérer divers types d'éclairage, motorisés ou non, sectorisés ou non. J'ai donc réalisé une interface de configuration des machines à destination des techniciens de mise en route et SAV afin de configurer au mieux la machine client en fonction de ses besoins. Cette interface permet de configurer la présence ou non d'éclairage, mais aussi de régler la position des secteurs si nécessaire."
+            },
+            {
+                "icon": "assets/Galaxy/glx_4.png",
+                "type": "Image",
+                "description": "Afin d'aider au mieux nos techniciens de mise en route et SAV, j'ai développé un assistant de mise en route. Cet assistant permet de manière simplifiée la visualisation des erreurs de calibration de la table et donc de les corriger au mieux, afin que les performances de la machine correspondent aux attentes du client."
+            },
+            {
+                "icon": "assets/Galaxy/glx_5.png",
+                "type": "Image",
+                "description": "De la même manière que précédemment, dans une logique de facilitation pour les techniciens SAV et de mise en route, j'ai créé un assistant de calibration vidéo. Avant cet outil, nos techniciens utilisaient des feuilles de calcul Excel, ce qui les obligeait à reporter les résultats des mesures, ce qui prenait du temps et augmentait le risque d'erreur. Avec l'assistant, ils peuvent voir les résultats directement dans Galaxy sans devoir reporter les mesures et appliquer les corrections au mieux. Cet assistant est très apprécié par les techniciens, car il est plus simple et plus rapide que l'ancienne méthode."
+            },
+            {
+                "icon": "assets/Galaxy/glx_6.png",
+                "type": "Image",
+                "description": "Lors de la prise de mesure, Galaxy enregistre le contexte de mesure : position, éclairage, zoom, etc. Cela permet de prendre la mesure avec toujours les mêmes paramètres. Cependant, certains clients ont demandé la possibilité de désactiver la restauration de contexte. Cette option existait déjà, mais en mode debug. J'ai donc été chargé de développer une fenêtre plus adéquate pour la vue des clients."
+            },
+            {
+                "icon": "assets/Galaxy/glx_7.png",
+                "type": "Image",
+                "description": "Au sein d'Ayonis, on m'a beaucoup donné de refonte d'interface. Comme par exemple la fenêtre ci-dessus."
+            },
+            {
+                "icon": "assets/Galaxy/glx_8.png",
+                "type": "Image",
+                "description": "Dans le logiciel Galaxy, il existe plusieurs moyens de déplacer la table : utiliser un joystick branché à la machine ou utiliser le joystick virtuel présent dans la vue inspection. Le problème est que la vue inspection est destinée aux opérateurs, mais pas à ceux qui réalisent les séquences. C'est pourquoi j'ai été chargé d'ajouter un joystick overlay dans la vue programmation qui s'affiche et se cache."
+            },
+            {
+                "icon": "assets/Galaxy/glx_9.png",
+                "type": "Image",
+                "description": "En naviguant sur LinkedIn, mon responsable m'a montré un graphique circulaire pour visualiser les tolérances et m'a demandé si j'arriverais à le réaliser. Du coup, lors du week-end, je me suis amusé à le réaliser. Par la suite, comme il a énormément plu à Altimet, il fut intégré dans Galaxy."
+            },
+            {
+                "icon": "assets/Galaxy/glx_10.png",
+                "type": "Image",
+                "description": "Une fois une pièce scannée sur Galaxy, il est possible d'étudier une tranche."
+            },
+            {
+                "icon": "assets/Galaxy/glx_11.png",
+                "type": "Image",
+                "description": "Après avoir sélectionné une tranche, on peut aller dans la vue graphique et sélectionner la tranche pour la visualiser sous forme de graphique 2D. Galaxy utilise la bibliothèque ZedGraph, et j'ai été chargé de mettre en forme la vue afin d'uniformiser la charte graphique du logiciel."
+            },
+            {
+                "icon": "assets/Galaxy/glx_12.png",
+                "type": "Image",
+                "description": "J'ai aussi été en charge de la gestion de l'affichage multi-graphiques. Ci-dessus, on peut voir l'affichage double."
+            },
+            {
+                "icon": "assets/Galaxy/glx_13.png",
+                "type": "Image",
+                "description": "Affichage multi-graphique fusionné."
+            },
+            {
+                "icon": "assets/Galaxy/glx_14.png",
+                "type": "Image",
+                "description": "Affichage multi-graphique avec 5 graphiques."
+            },
+            {
+                "icon": "assets/Galaxy/glx_15.png",
+                "type": "Image",
+                "description": "Affichage où la courbe 1 et 2 sont dans le même graphique et les courbes 3, 4 et 5 sont respectivement dans les graphiques 2, 3 et 4."
+            },
+            {
+                "icon": "assets/Galaxy/glx_16.mp4",
+                "type": "Video",
+                "description": "Vidéo de démonstration de la nouvelle vue demandée par le client AT2E. Leur demande était de simplifier la vue opérateur. En effet, la vue inspection ne les intéressait pas. Ils ont demandé de voir le plan de la pièce et d'avoir un affichage vert ou rouge pour indiquer si la pièce est bonne ou mauvaise. J'ai proposé la vue 'Schematic Report / Rapport personnalisé' permettant l'importation d'images quelconques et la possibilité de glisser-déposer des étiquettes représentant les mesures réalisées par Galaxy. Ces étiquettes sont placables par le métrologue et changent de couleur en fonction des tolérances : vert dans les tolérances, rouge hors tolérances. Un indicateur global permet également de dire si la pièce est bonne ou non. L'avantage de cette vue est qu'elle permet la visualisation en direct des bonnes ou mauvaises mesures sur le plan."
+            },
+            {
+                "icon": "assets/Galaxy/glx_17.png",
+                "type": "Image",
+                "description": "La vue Rapport personnalisé permet aussi une configuration de l'affichage des étiquettes. Ci-dessus, on peut voir le menu pour changer la police et la couleur de fond pour les étiquettes dites standard."
+            },
+            {
+                "icon": "assets/Galaxy/glx_18.png",
+                "type": "Image",
+                "description": "La vue Rapport personnalisé permet aussi une configuration de l'affichage des étiquettes. En effet, ci-dessus, on peut voir la configuration de la flèche, en plus de celle des étiquettes. On peut modifier l'angle de la flèche, sa taille et où elle pointe. L'opérateur verra alors les étiquettes avec les flèches."
+            },
+            {
+                "icon": "assets/Galaxy/glx_19.png",
+                "type": "Image",
+                "description": "Lorsque l'on veut une mesure entre éléments d'une séquence, il faut construire une mesure, sélectionner les éléments et l'ajouter dans la séquence. J'ai donc proposé un affichage rapide permettant la visualisation de mesures simples, telles que la distance 3D, cartésienne, et l'angle entre différents éléments géométriques. Cette fonctionnalité est appelée 'Geometric Info / Infos géométriques'."
+            },
+            {
+                "icon": "assets/Galaxy/glx_20.png",
+                "type": "Image",
+                "description": "Exemple d'information géométrique pour un angle entre deux droites projetées sur le plan sélectionné."
+            },
+            {
+                "icon": "assets/Galaxy/glx_21.mp4",
+                "type": "Video",
+                "description": "Fonctionnement en vidéo de la fonctionnalité Information géométrique."
+            },
+            {
+                "icon": "assets/Galaxy/glx_22.mp4",
+                "type": "Video",
+                "description": "Comparaison en vidéo entre la méthode classique pour créer une mesure : mesure - créer mesure de distance - distance 3D - point 1 - point 2 - valider, et la fonctionnalité Information géométrique : point 1 - point 2 - ajout distance 3D. Cette fonctionnalité permet d'éviter la lourdeur des menus, passant de 6 clics à seulement 3. Cependant, cette fonctionnalité n'est pas intuitive pour un non-initié et elle est destinée à ceux qui ont l'habitude de manipuler Galaxy."
+            },
+            {
+                "icon": "assets/Galaxy/bytewise_0.png",
+                "type": "Image",
+                "description": "Lors de mon travail chez Ayonis, Michelin nous a demandé d'implémenter un type de graphique très particulier appelé Bytewise. On peut voir ci-dessus le PDF servant d'exemple envoyé par Michelin. Mon responsable n'a pas lancé ce développement car il était relativement compliqué, mais un budget sera établi une fois la complexité du travail déterminée."
+            },
+            {
+                "icon": "assets/Galaxy/bytewise_1.png",
+                "type": "Image",
+                "description": "Par curiosité, j'ai décidé de tester mes capacités un week-end en réalisant un contrôle Windows Forms pour afficher le graphique Bytewise demandé par Michelin, en parallèle de ma veille technologique personnelle."
+            },
+            {
+                "icon": "assets/Galaxy/bytewise_2.bmp",
+                "type": "Image",
+                "description": "Le résultat fut très concluant. Nous avons donc recontacté Michelin, qui nous a dit ne vouloir que la partie ci-dessus, avec la possibilité d'ajouter des points particuliers symbolisés par des losanges verts. Ci-dessus, on peut voir le graphique épuré vendu à Michelin."
             }
         ]
     },
     {
         "name": "Linkeats",
-        "icon": "assets/img.png",
-        "description": "lorem ipsum",
+        "icon": "assets/linkeats/linkeats_1.png",
+        "description": "Réalisation d'un projet universitaire. L'objectif était de reproduire un site similaire à Uber Eats. Pour cela, nous avons mis en place une architecture microservices. Pour nos microservices, nous avons utilisé Node.js avec Express.js. Pour stocker nos données, nous avons utilisé MongoDB avec Mongoose et SQL Server avec Sequelize. Nous avons configuré NGINX comme reverse proxy en tant que middleware. Toute notre architecture est conteneurisée et fonctionne sous Docker. Enfin, pour la partie front-end, nous avons utilisé Vue.js avec Vuetify, également fonctionnant sur un conteneur Docker.",
         "date": "01/2023",
         "duration": null,
-        "images": []
+        "images": [
+            {
+                "icon": "assets/linkeats/linkeats_2.png",
+                "description": "Page de connexion.",
+                "type": "Image"
+            },
+            {
+                "icon": "assets/linkeats/linkeats_3.png",
+                "description": "Page d'inscription.",
+                "type": "Image"
+            },
+            {
+                "icon": "assets/linkeats/linkeats_4.png",
+                "description": "Premier test d'affichage des restaurants récupérés via l'API Restaurant.",
+                "type": "Image"
+            },
+            {
+                "icon": "assets/linkeats/linkeats_5.jpg",
+                "description": "Page d'accueil.",
+                "type": "Image"
+            },
+            {
+                "icon": "assets/linkeats/linkeats_6.jpg",
+                "description": "Premier test d'affichage des plats récupérés via l'API Dish.",
+                "type": "Image"
+            }
+        ]
     },
     {
         "name": "Factory Frenzy",
         "icon": "assets/FactoryFrenzy/ff.jpg",
-        "description": "Projet école pour apprendre la réalité virtuelle, augmenté et mixte. L'objectif principale du projet est d'apprendre les base de la 3D et du moteur Unity. étant déjà relativement bien avancé j'ai principalement aidé mes camarades sur différents sujet. J'ai pu les aider a debugguer leur projet, leur montrer comment faire certaines taches et corrigé quelques erreurs dans les ennoncés.",
+        "description": "Projet scolaire visant à apprendre la réalité virtuelle, augmentée et mixte. L'objectif principal du projet est d'apprendre les bases de la 3D et du moteur Unity. Étant déjà relativement bien avancé, j'ai principalement aidé mes camarades sur différents sujets. J'ai pu les aider à déboguer leurs projets, leur montrer comment effectuer certaines tâches et corriger quelques erreurs dans les énoncés.",
         "date": "05/2024",
         "duration": null,
         "images": [
             {
-                "icon": "assets/FactoryFrenzy/IMG/PC_PLA_P1.png",
-                "description": "Le jeu doit utiliser le component Character Controller",
+                "icon": "assets/FactoryFrenzy/PC_PLA_P1.png",
+                "description": "Le jeu doit utiliser le composant Character Controller.",
                 "type": "Image"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_PLA_P2.mp4",
-                "description": "Le jeu doit avoir une plateforme de début de course",
+                "description": "Le jeu doit avoir une plateforme de début de course.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_PLA_P3.mp4",
-                "description": "Le jeu doit avoir une plateforme de fin de course",
+                "description": "Le jeu doit avoir une plateforme de fin de course.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_PLA_P4_1.mp4",
-                "description": "Le jeu doit avoir des platforms classique ainsi qu'une gestion des chutes. (joueur local)",
+                "description": "Le jeu doit avoir des plateformes classiques ainsi qu'une gestion des chutes (joueur local).",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_PLA_P4_2.mp4",
-                "description": "Le jeu doit avoir des platforms classique ainsi qu'une gestion des chutes. (joueur distant)",
+                "description": "Le jeu doit avoir des plateformes classiques ainsi qu'une gestion des chutes (joueur distant).",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_PLA_P5.mp4",
-                "description": "Le jeu doit avoir des platform mouvante",
+                "description": "Le jeu doit avoir des plateformes mouvantes.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_PLA_P6.mp4",
-                "description": "Le jeu doit avoir une platforme rebondissante dite trampoline",
+                "description": "Le jeu doit avoir une plateforme rebondissante, dite trampoline.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_PLA_P7.mp4",
-                "description": "Le jeu doit avoir des checkpoint",
+                "description": "Le jeu doit avoir des checkpoints.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_TRA_T1.mp4",
-                "description": "Le jeu doit avoir des piège rebondissant appelé bumper",
+                "description": "Le jeu doit avoir des pièges rebondissants appelés bumper.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_TRA_T2.mp4",
-                "description": "Le jeu doit avoir des pièges style tourelle automatique. La fonctionalité doit implémenter le pattern Machine a état fini (FSM) passant d'un état repos, mise en ligne de mire d'un joueur avant de lancer des projectile sur le joueur",
+                "description": "Le jeu doit avoir des pièges de type tourelle automatique. La fonctionnalité doit implémenter le pattern Machine à états finis (FSM), passant d'un état repos à un état de mise en ligne de mire avant de lancer des projectiles sur le joueur.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_TRA_T3.mp4",
-                "description": "Le jeu doit avoir des piège style ventilateur repoussant les joueurs",
+                "description": "Le jeu doit avoir des pièges de type ventilateur, repoussant les joueurs.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_LOB_L1_1.mp4",
-                "description": "Le jeu etant multijoueur doit avoir un lobby. Pour cette fonctionalité je suis aller plus loin qu'attentu en utilisant le service de Lobby de Unity. (Création du lobby)",
+                "description": "Le jeu, étant multijoueur, doit avoir un lobby. Pour cette fonctionnalité, je suis allé au-delà des attentes en utilisant le service de Lobby de Unity (création du lobby).",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_LOB_L1_2.mp4",
-                "description": "Le jeu etant multijoueur doit avoir un lobby. Pour cette fonctionalité je suis aller plus loin qu'attentu en utilisant le service de Lobby de Unity. (Intégration du lobby)",
+                "description": "Le jeu, étant multijoueur, doit avoir un lobby. Pour cette fonctionnalité, je suis allé au-delà des attentes en utilisant le service de Lobby de Unity (intégration du lobby).",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/PC_LOB_L2.mp4",
-                "description": "Les maps chargé pour la partie doivent être ceux edité en réalité virtuelle",
+                "description": "Les cartes chargées pour la partie doivent être celles éditées en réalité virtuelle.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP1-1.mp4",
-                "description": "L'éditeur en réalité virtuelle doit permettre la téléportation du joueur",
+                "description": "L'éditeur en réalité virtuelle doit permettre la téléportation du joueur.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP1-2.mp4",
-                "description": "L'éditeur en réalité virtuelle doit permmettre de créer des objet 3D à partir d'une UI",
+                "description": "L'éditeur en réalité virtuelle doit permettre de créer des objets 3D à partir d'une interface utilisateur.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP1-3.mp4",
-                "description": "L'éditeur en réalité virtuelle doit permettre d'attraper et de placer dans l'espace des objet 3D",
+                "description": "L'éditeur en réalité virtuelle doit permettre d'attraper et de placer dans l'espace des objets 3D.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP1-4.mp4",
-                "description": "L'éditeur en réalité virtuelle doit permmettre la supression des éléments placés",
+                "description": "L'éditeur en réalité virtuelle doit permettre la suppression des éléments placés.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP1-5.png",
-                "description": "L'éditeur en réalité virtuelle doit pouvoir exporter le niveau configurer au format JSON",
+                "description": "L'éditeur en réalité virtuelle doit pouvoir exporter le niveau configuré au format JSON.",
                 "type": "Image"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP1-6.mp4",
-                "description": "L'éditeur en réalité virtuelle doit fournir différent retour à l'utilisateur en utilisant les vibrations des manette ou encore le son",
+                "description": "L'éditeur en réalité virtuelle doit fournir différents retours à l'utilisateur en utilisant les vibrations des manettes ou encore le son.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP2-1.mp4",
-                "description": "L'éditeur en réalité virtuelle doit fournit des aides au placement appelé le snap permettant d'aligner automatiquement des plateformes entre elles",
+                "description": "L'éditeur en réalité virtuelle doit fournir des aides au placement, appelées snap, permettant d'aligner automatiquement des plateformes entre elles.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP2-2.mp4",
-                "description": "L'éditeur en réalité virtuelle doit permettre le vérouillage des élément placer afin de plus pouvoir les déplacer une fois vérouillé",
+                "description": "L'éditeur en réalité virtuelle doit permettre le verrouillage des éléments placés afin qu'ils ne puissent plus être déplacés une fois verrouillés.",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP2-3_1.mp4",
-                "description": "L'éditeur en réalité virtuelle doit permettre le parametrage des élément parametrable comme les pièges ou la plateforme mouvante. (vue VR)",
+                "description": "L'éditeur en réalité virtuelle doit permettre le paramétrage des éléments paramétrables, comme les pièges ou la plateforme mouvante (vue VR).",
                 "type": "Video"
             },
             {
                 "icon": "assets/FactoryFrenzy/VR_FP2-3_2.png",
-                "description": "L'éditeur en réalité virtuelle doit permettre le parametrage des élément parametrable comme les pièges ou la plateforme mouvante. (contenu du JSON)",
+                "description": "L'éditeur en réalité virtuelle doit permettre le paramétrage des éléments paramétrables, comme les pièges ou la plateforme mouvante (contenu du JSON).",
                 "type": "Image"
             }
         ]
     },
     {
         "name": "ICM",
-        "icon": "assets/img.png",
-        "description": "Suite à de nombreuse plainte de client sur l'IHM peu moderne et peu attractif d'ICM, logiciel le plus vendu d'Ayonis. Altimet a fait des propositions de design à l'équipe de développement logiciel. J'ai alors demandé si j'avais aussi le droit de proposer un design. Aprés que l'on m'ai donné le feu j'ai présenter mon nouveau design à la direction d'Altimet qui m'a tout de suite chargé de la refonte d'ICM. J'ai donc été en charge de développer mes idée et de les présenter aux équipes Ayonis et Altimet afin de prendre en compte leur remarque. J'ai donc été en charge de la gestion de projet de cette refonte graphique.",
+        "icon": "assets/icm/icm.png",
+        "description": "Suite à de nombreuses plaintes de clients concernant l'IHM peu moderne et peu attractive d'ICM, le logiciel le plus vendu d'Ayonis, Altimet a proposé des designs à l'équipe de développement logiciel. J'ai alors demandé si je pouvais aussi proposer un design. Après avoir obtenu leur feu vert, j'ai présenté mon nouveau design à la direction d'Altimet, qui m'a immédiatement chargé de la refonte d'ICM. J'ai donc été en charge de développer mes idées et de les présenter aux équipes d'Ayonis et d'Altimet pour recueillir leurs retours. J'ai également été responsable de la gestion de projet de cette refonte graphique.",
         "date": "2023",
         "duration": "P1Y",
         "images": [
             {
                 "icon": "assets/icm/pre-proposition.png",
                 "type": "Image",
-                "description": "Proposition initial réaliser par la direction d'altimet"
+                "description": "Proposition initiale réalisée par la direction d'Altimet."
             },
             {
                 "icon": "assets/icm/old/splashscreen.png",
                 "type": "Image",
-                "description": "ancien slpashscreen"
+                "description": "Ancien splash screen du logiciel."
             },
             {
                 "icon": "assets/icm/new/splashscreen.png",
                 "type": "Image",
-                "description": "nouveau desing slpashscreen"
+                "description": "Nouveau design du splash screen."
             },
             {
                 "icon": "assets/icm/new/splashscreen_real.png",
                 "type": "Image",
-                "description": "nouveau rendu slpashscreen"
+                "description": "Nouveau rendu du splash screen."
             },
             {
                 "icon": "assets/icm/old/cam.png",
                 "type": "Image",
-                "description": "ancienne vue caméra"
+                "description": "Ancienne vue de la caméra."
             },
             {
                 "icon": "assets/icm/new/cam_1.png",
                 "type": "Image",
-                "description": "nouveau design vue caméra"
+                "description": "Nouveau design de la vue caméra."
             },
             {
                 "icon": "assets/icm/new/cam_1_real.png",
                 "type": "Image",
-                "description": "nouveau rendu vue caméra"
+                "description": "Nouveau rendu de la vue caméra."
             },
             {
                 "icon": "assets/icm/new/cam_2.png",
                 "type": "Image",
-                "description": "nouveau design vue caméra"
+                "description": "Nouveau design de la vue caméra."
             },
             {
                 "icon": "assets/icm/new/cam_2_real.png",
                 "type": "Image",
-                "description": "nouveau rendu vue caméra"
+                "description": "Nouveau rendu de la vue caméra."
             },
             {
                 "icon": "assets/icm/new/cam_3.png",
                 "type": "Image",
-                "description": "nouveau design vue caméra"
+                "description": "Nouveau design de la vue caméra."
             },
             {
                 "icon": "assets/icm/new/cam_3_real.png",
                 "type": "Image",
-                "description": "nouveau rendu vue caméra"
+                "description": "Nouveau rendu de la vue caméra."
             },
             {
                 "icon": "assets/icm/old/lot.png",
                 "type": "Image",
-                "description": "ancienne vue lot"
+                "description": "Ancienne vue des lots."
             },
             {
                 "icon": "assets/icm/new/lot.png",
                 "type": "Image",
-                "description": "nouveau design vue lot"
+                "description": "Nouveau design de la vue des lots."
             },
             {
                 "icon": "assets/icm/new/lot_real.png",
                 "type": "Image",
-                "description": "nouveau rendu vue lot"
+                "description": "Nouveau rendu de la vue des lots."
             },
             {
                 "icon": "assets/icm/old/pieces.png",
                 "type": "Image",
-                "description": "ancienne vue pièces"
+                "description": "Ancienne vue des pièces."
             },
             {
                 "icon": "assets/icm/new/pieces.png",
                 "type": "Image",
-                "description": "nouveau design vue pièces"
+                "description": "Nouveau design de la vue des pièces."
             },
             {
                 "icon": "assets/icm/new/pieces_real.png",
                 "type": "Image",
-                "description": "nouveau rendu vue pièces"
+                "description": "Nouveau rendu de la vue des pièces."
             },
             {
                 "icon": "assets/icm/old/prog.png",
                 "type": "Image",
-                "description": "ancienne vue programmation"
+                "description": "Ancienne vue de la programmation."
             },
             {
                 "icon": "assets/icm/new/prog.png",
                 "type": "Image",
-                "description": "nouveau design vue programation"
+                "description": "Nouveau design de la vue programmation."
             },
             {
                 "icon": "assets/icm/new/prog_real.png",
                 "type": "Image",
-                "description": "nouveau rendu vue programation"
+                "description": "Nouveau rendu de la vue programmation."
             },
             {
                 "icon": "assets/icm/ICMv2_1.jpg",
                 "type": "Image",
-                "description": "nouveau design avec avec la machine associé"
+                "description": "Nouveau design avec la machine associée."
             },
             {
                 "icon": "assets/icm/ICMv2_2.jpg",
                 "type": "Image",
-                "description": "zoom sur l'ecran du nouveau design"
+                "description": "Zoom sur l'écran du nouveau design."
             }
         ]
     },
     {
-        "name": "CWS SDK",
-        "icon": "assets/cws/cws.png",
-        "description": "lorem ipsum",
+        "name": "Mobilité internationale chez Altimet QISAB",
+        "icon": "assets/qisab.png",
+        "description": "Après le rachat d'Ayonis en juillet 2022, j'ai intégré l'équipe d'Altimet. J'ai découvert qu'Altimet possédait une filiale en Suède. Un collègue m'a alors informé du manque de personnel pour le développement de diverses applications, car Altimet limite les dépenses pour QISAB et se concentre sur Altimet et Ayonis. J'ai donc demandé à effectuer ma mobilité en Suède pour faire avancer les différents projets. QISAB, voyant la qualité de mon travail chez Ayonis, m'a demandé de créer une application démo moderne et plus attrayante. Cependant, une fois sur place, Altimet a changé ses priorités et a décidé de vendre rapidement des capteurs et des solutions proposées par QISAB utilisant des bras robotiques. J'ai donc été chargé d'analyser et de documenter le logiciel utilisé pour contrôler le capteur CWS. Une fois cette analyse réalisée, j'ai présenté l'architecture à la direction d'Altimet. Le capteur fonctionne avec trois logiciels : un logiciel d'acquisition sous LabView, un logiciel d'analyse console sous Matlab, et un logiciel de visualisation des résultats sous Matlab. Altimet souhaitait simplifier l'ensemble et proposer un SDK avec le capteur à la vente, offrant ainsi une interface unique et simplifiée pour contrôler le capteur. J'ai été responsable de la conception et de la réalisation du SDK. Cette mission a été réalisée en collaboration avec M. Baath, inventeur du CWS, avec qui j'ai dû communiquer en anglais pour échanger sur le fonctionnement du capteur et du logiciel. À la suite de cette mission, je suis devenu officieusement le référent technique d'Altimet pour le fonctionnement logiciel du capteur. Grâce à mes travaux, Altimet a pu obtenir un crédit d'impôt recherche par la région, ce qui a permis un investissement pour la qualification des miroirs en saphir pour le projet SEPO450.",
         "date": "07/2023",
         "duration": "P3M",
         "images": [
             {
                 "icon": "assets/cws/cws_1.png",
                 "type": "Image",
-                "description": "logiciel sous labView permettant l'acquisition des donnée. J'ai fait du retro engineering sur ce logiciel afin d'extraire les fonction de control du CWS afin de réaliser un SDK"
+                "description": "Logiciel sous LabView permettant l'acquisition des données. J'ai effectué un rétro-engineering sur ce logiciel pour extraire les fonctions de contrôle du CWS et réaliser un SDK."
             },
             {
                 "icon": "assets/cws/cws_2.png",
                 "type": "Image",
-                "description": "logiciel console d'Analyse. ce logiciel fonctionne comme un agent et fait les calculs pour chaque mesure effectué. Le SDK l'orchestre pour simplifier l'utilisation du CWS"
+                "description": "Logiciel console d'analyse. Ce logiciel fonctionne comme un agent et effectue les calculs pour chaque mesure réalisée. Le SDK orchestre ce processus pour simplifier l'utilisation du CWS."
             },
             {
                 "icon": "assets/cws/cws_3.mp4",
                 "type": "Video",
-                "description": "Premier tests sur les composants individuelles du CWS"
+                "description": "Premier test des composants individuels du CWS."
             },
             {
                 "icon": "assets/cws/cws_4.jpg",
                 "type": "Image",
-                "description": "Utilisation d'un CWS prototype en laboratoire afin de validé le bon fonctionnement du SDK avec un capteur prototype"
+                "description": "Utilisation d'un prototype de CWS en laboratoire pour valider le bon fonctionnement du SDK avec un capteur prototype."
             },
             {
                 "icon": "assets/cws/cws_5.jpg",
                 "type": "Image",
-                "description": "Laboratoire de QISAB à Halmstad, où j'ai réalisé mes tests"
+                "description": "Laboratoire de QISAB à Halmstad, où j'ai effectué mes tests."
             },
             {
                 "icon": "assets/cws/cws_6.jpg",
                 "type": "Image",
-                "description": "Laboratoire de QISAB à Halmstad, où j'ai réalisé mes tests"
+                "description": "Laboratoire de QISAB à Halmstad, où j'ai effectué mes tests."
             },
             {
                 "icon": "assets/cws/cws_7.jpg",
                 "type": "Image",
-                "description": "Installation et branchement du PC au capteur pour tester le SDK sur un capteur prototype"
+                "description": "Installation et branchement du PC au capteur pour tester le SDK sur un capteur prototype."
             },
             {
-                "icon": "assets/cws/cws_8.png",
+                "icon": "assets/cws/cws_8.jpg",
                 "type": "Image",
-                "description": "Une fois les test validé, j'ai pu recevoir un vrai capteur prêt à la ventes pour valider mes test, et optimiser le SDK"
+                "description": "Une fois les tests validés, j'ai reçu un vrai capteur prêt à la vente pour valider mes tests et optimiser le SDK."
             },
             {
-                "icon": "assets/cws/cws_9.png",
+                "icon": "assets/cws/cws_9.jpg",
                 "type": "Image",
-                "description": "CWS avec sa fibre"
+                "description": "CWS avec sa fibre."
             },
             {
-                "icon": "assets/cws/cws_10.png",
+                "icon": "assets/cws/cws_10.jpg",
                 "type": "Image",
-                "description": "CWS installé sur mon bureau afin de réaliser des tests de performances"
+                "description": "CWS installé sur mon bureau pour effectuer des tests de performance."
             },
             {
                 "icon": "assets/cws/demo.mp4",
                 "type": "Video",
-                "description": "Vidéo présneter à la direction d'Altimet sur la simplicité d'utilisation du SDK (se connecter, mesurer, éteindre). Il est tout de même possible de récuperer l'image en direct et de configurer la puissance du laser"
+                "description": "Vidéo présentée à la direction d'Altimet, montrant la simplicité d'utilisation du SDK (se connecter, mesurer, éteindre). Il est également possible de récupérer l'image en direct et de configurer la puissance du laser."
             },
             {
                 "icon": "assets/cws/cws_11.png",
                 "type": "Image",
-                "description": "Déclaration du président d'Altimet, M. Carras, sur le projet SEPO450 financé en partie pare la région Rhone Alpes"
-            },
-            {
-                "icon": "<iframe src=\"https: //www.linkedin.com/embed/feed/update/urn:li:share:7209210421415657472\" height=\"1089\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Post intégré\"></iframe>",
-                "type": "Text",
-                "description": "la région auvergne Rhone Alpes a selection le projet BWS, évolution du CWS, comme projet d'avenir a financé une partie du projet"
+                "description": "Déclaration du président d'Altimet, M. Carras, sur le projet SEPO450 financé en partie par la région Rhône-Alpes."
             },
             {
                 "icon": "assets/cws/bws_3.png",
                 "type": "Image",
-                "description": "Le BWS est une évolution du CWS permettant plus de mesures. Ce capteur est toujours au stade expérimental. Pour son développement j'ai été mendaté par M. Baath, inventeur du CWS et BWS pour la création d'un outil permettant la visualisation de plusieurs informations en direct sur l'image. Cette vue permet la visualisation de l'angle polar de l'iamge"
+                "description": "Le BWS est une évolution du CWS permettant davantage de mesures. Ce capteur est toujours au stade expérimental. Pour son développement, j'ai été mandaté par M. Baath, inventeur du CWS et BWS, pour créer un outil permettant la visualisation de plusieurs informations en direct sur l'image. Cette vue permet de visualiser l'angle polaire de l'image."
             },
             {
                 "icon": "assets/cws/bws_2.png",
                 "type": "Image",
-                "description": "Vue permettant la visualisation de l'intensité global de l'image"
+                "description": "Vue permettant de visualiser l'intensité globale de l'image."
             },
             {
                 "icon": "assets/cws/bws_1.png",
                 "type": "Image",
-                "description": "Vue permettant la visualisation de l'extraction des images de la caméra polarisé"
+                "description": "Vue permettant de visualiser l'extraction des images de la caméra polarisée."
             }
         ]
     }

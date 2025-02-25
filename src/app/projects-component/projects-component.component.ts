@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ProjectItemComponent } from "../project-item/project-item.component";
 import { CommonModule } from '@angular/common';
+import { IProject } from '../Interfaces/IProject';
 
 
 @Component({
@@ -13,7 +14,7 @@ import { CommonModule } from '@angular/common';
   
 export class ProjectsComponentComponent {
 
-  projects = [];
+  projects : IProject[] = [];
 
   ngOnInit() {
     this.getProjects();
@@ -25,6 +26,8 @@ export class ProjectsComponentComponent {
 
       resp.ok ? this.projects = await resp.json() : console.log(resp.body);
       
+      this.projects.sort((a,b)=> new Date(a.date).getTime() - new Date(b.date).getTime()).reverse()
+
     }
     catch (e) {
       console.log(e);

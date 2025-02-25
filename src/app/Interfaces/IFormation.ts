@@ -1,7 +1,7 @@
 export interface IFormation {
     name: string;
-    start: string;
-    end: string;
+    start: Date;
+    end: Date;
     diploma: string;
     option: string;
     icon: string;

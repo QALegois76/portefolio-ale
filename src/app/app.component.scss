@@ -1,5 +1,5 @@
 app {
-    background-color: #2C2C2C ;
+    background-color: transparent;
     color: white;
     font-family: 'Cascadia Code', monospace;
 }
@@ -15,23 +15,13 @@ app {
 #divHeader
 {
     margin: 10px;
-    /* border: solid 2px Magenta; */
     text-align: center;
 }
 
-#btnTheme
-{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 0;
-}
 
 
-#sectionFormation
-{
-    max-width: 1000px;
-    margin: auto;
-}
+
+
 
 #mat-toolbar-row
 {
@@ -56,6 +46,35 @@ button
 a{
     margin-left: 2pt;
     text-decoration: none!important;
+}
+
+
+
+
+.content {
+    position: relative;
+    z-index: 1;
+    /* Assure que le contenu est devant */
+}
+
+body{
+    background-color: transparent;
+}
+
+app-star-background-component
+{
+        background-color: rgb(5, 5, 8);
+        position: fixed;
+        /* Fixé en arrière-plan */
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        /* Toujours derrière */
+        pointer-events: none;
+        /* Ne bloque pas l'interaction */
+        overflow: hidden;
 }
 
 

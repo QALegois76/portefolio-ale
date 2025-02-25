@@ -1,0 +1,30 @@
+<mat-card id="cardImgContent">
+    <div id="divImgContent">
+
+        @switch (data.type.toString()) {
+        @case ("Image") {
+        <img id="imgContent" [src]="data.icon" alt="icon">
+        }
+        @case ("Video") {
+        <video controls muted loop autoplay id="imgContent">
+            <source [src]="data.icon" type="video/mp4">
+            Votre navigateur ne supporte pas les vidéos.
+        </video>
+        }
+        @default {
+        <p class="media-content">{{ data.icon }}</p>
+        }
+        }
+    </div>
+    <br />
+    <mat-card-content id="card-content-media-description">
+        <div id="div-media-description">
+            <p>
+                {{data.description}}
+            </p>
+        </div>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button mat-dialog-close>Close</button>
+    </mat-card-actions>
+</mat-card>

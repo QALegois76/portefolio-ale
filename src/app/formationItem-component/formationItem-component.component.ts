@@ -15,8 +15,8 @@ export class FormationComponentComponent {
 
   @Input() formation :IFormation ={
     name: 'Formation',
-    start: '1970',
-    end: '1970',
+    start: new Date(),
+    end: new Date(),
     diploma: '',
     option: '',
     icon: 'assets/img.png',
