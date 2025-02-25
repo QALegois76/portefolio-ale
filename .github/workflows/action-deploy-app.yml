@@ -20,7 +20,7 @@ jobs:
 
 
     - name: Test SSH Connection
-      run: ssh -v -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}
+      run: ssh -T  ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -p ${{ secrets.SSH_PORT }}
 
         
     - name: connect and pull
