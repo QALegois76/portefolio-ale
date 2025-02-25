@@ -3,7 +3,7 @@ name: ALE Action deploy portefolio
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
