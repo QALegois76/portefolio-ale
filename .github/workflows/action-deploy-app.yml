@@ -34,7 +34,7 @@ jobs:
     - name: Deploy using ssh
       uses: fabienOVH/action-deploy-vps-ovhcloud@v1.0.0
       with:
-        ssh_host: ${{ secrets.SSH_HOST }}
+        ssh_host: ${{ secrets.SSH_HOST }} -p ${{ secrets.SSH_PORT }}
         ssh_user: ${{ secrets.SSH_USER }}
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         site_path: ${{ secrets.WORK_DIR }}
