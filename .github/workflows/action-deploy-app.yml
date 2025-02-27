@@ -14,16 +14,31 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:       
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Check if VPS is up
+      run: |
+        echo "Checking if VPS is reachable..."
+        if ! nc -zvw3 ${{ secrets.SSH_HOST }} 22; then
+          echo "VPS is down or unreachable. Stopping deployment."
+          exit 1
+        fi
+        echo "VPS is online, proceeding with deployment."
+
+    - name: Add SSH Private Key
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+    
     - name: Deploy using ssh
-      uses: appleboy/ssh-action@master
+      uses: fabienOVH/action-deploy-vps-ovhcloud@v1.0.0
       with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        port: ${{ secrets.SSH_PORT }}
-        script: |
-          cd ${{ secrets.WORK_DIR }}
-          git pull origin main
-          git status
-          npm install
+        ssh_host: ${{ secrets.SSH_HOST }}
+        ssh_user: ${{ secrets.SSH_USER }}
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        site_path: ${{ secrets.WORK_DIR }}
